@@ -1,0 +1,31 @@
+root{
+ --zarnit-primary: 42 91% 62%;
+}
+
+.navbar .option-item button {
+    color: black;
+}
+
+[ciram-dark-light-data-theme=ciram-dark] .navbar .option-item button {
+    color: white;
+}
+
+[ciram-dark-light-data-theme=ciram-dark] .btn-warning {
+    color: black;
+}
+
+.navbar {
+    height: 75px;
+}
+
+.navbar ul {
+    margin-top: 7px !important;
+}
+
+.navbar.white-nav.sticky {
+    border-bottom: 1px solid lightgray;
+}
+
+[ciram-dark-light-data-theme=ciram-dark] .navbar.white-nav.sticky  {
+    border-bottom: unset;
+}
