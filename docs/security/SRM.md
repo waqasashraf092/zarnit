@@ -8,3 +8,4 @@
 | SR-04 | Secrets never in repo | GitHub Secrets, .env | Repo search | All |
 | SR-05 | Security Headers enforced | Laravel middleware (HSTS, CSP, X-Frame-Options, etc.) | curl -I https:// staging URL | Security |
 | SR-06 | Secure environment defaults | APP_DEBUG=false, secure APP_URL | Check .env.example | DevOps |
+
