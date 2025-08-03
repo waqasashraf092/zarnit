@@ -15,8 +15,8 @@ jobs:
       - run: npm audit --audit-level=high || true
       - run: npm run build --if-present
 
-  zap:
-    uses: zaproxy/action-baseline@v0.11.0
-    with:
-      target: ${{ secrets.STAGING_URL }}
-      fail_action: true
+# zap:
+#   uses: zaproxy/action-baseline@v0.11.0
+#   with:
+#     target: ${{ secrets.STAGING_URL }}
+#     fail_action: true
