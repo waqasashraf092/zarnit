@@ -60,7 +60,7 @@
                                         <a href="{{ route('home') }}">Products</a>
                                     </li>
                                     <li class="">
-                                        <a href="{{ route('home') }}">About</a>
+                                        <a href="{{ route('about') }}">About</a>
                                     </li>
                                     <li class="">
                                         <a href="{{ route('home') }}">Blogs</a>
