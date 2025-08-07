@@ -7,7 +7,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/products', function () {
-    return view('about');
+    return view('products');
 })->name('products');
 
 Route::get('/about', function () {

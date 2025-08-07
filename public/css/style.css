@@ -1,6 +1,6 @@
 /* ITHUB IT solution & Technology Services HTML-5 Template */
 
-/*** 
+/***
 
 ====================================================================
 	Attachment Css Files
@@ -22,7 +22,7 @@
 @import url('odometer-theme-default.css');
 @import url('jquery.bootstrap-touchspin.css');
 
-/*** 
+/***
 
 ====================================================================
 	Main Slider
@@ -424,7 +424,7 @@
 	color:var(--black-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Clients One
@@ -476,7 +476,7 @@
 	opacity:0.50;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About One
@@ -638,7 +638,7 @@
 	display:block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Marketing One
@@ -682,7 +682,7 @@
 	padding-top:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Achieve One
@@ -793,7 +793,7 @@
 	line-height:1em;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Video One
@@ -951,7 +951,7 @@
     100% {box-shadow: 0 0 0 0 rgba(253, 167, 0, 0);}
 }
 
-/*** 
+/***
 
 ====================================================================
 	Process One
@@ -969,7 +969,7 @@
 }
 
 .process-one .step-block_one:nth-child(2){
-	
+
 	top:30px;
 }
 
@@ -979,7 +979,7 @@
 }
 
 .process-one .step-block_one:nth-child(3){
-	
+
 	top:-160px;
 }
 
@@ -990,7 +990,7 @@
 
 .process-one .step-block_one:nth-child(4){
 	top:-325px;
-	
+
 }
 
 .step-block_one:last-child .step-block_one-inner:before{
@@ -1107,7 +1107,7 @@
 	margin-top:20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Offer One
@@ -1290,7 +1290,7 @@
 }
 
 .offer-one_heading{
-	margin-top: 10px; 
+	margin-top: 10px;
 	color: var(--black-color);
 	text-transform: capitalize;
 	transition:all 500ms ease;
@@ -1398,7 +1398,7 @@
 	padding-left:70px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial One
@@ -1581,7 +1581,7 @@
 	display:inline-block;
 	color:var(--white-color);
 	background-image: linear-gradient(180deg, #000bff, #c115ec);
-	
+
 }
 
 .testimonial-one_carousel-prev:hover,
@@ -1590,7 +1590,7 @@
 	background-image: linear-gradient(180deg, var(--black-color), var(--black-color));
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team One
@@ -1884,7 +1884,7 @@
 	margin-left:30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Incredible One
@@ -1944,7 +1944,7 @@
     -webkit-text-stroke-color: rgba(var(--white-color-rgb), 1);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Experiance One
@@ -2038,7 +2038,7 @@
 	z-index:9;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News One
@@ -2258,7 +2258,7 @@
 	padding-right: var(--padding-right-25);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Slider Two
@@ -2488,7 +2488,7 @@
 	display:inline-block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Counter Two
@@ -2563,7 +2563,7 @@
 	color: var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Two
@@ -2839,7 +2839,7 @@
 	margin-top:60px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Services One
@@ -3071,7 +3071,7 @@
     animation: icon-bounce 0.8s ease-out infinite;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery One
@@ -3135,7 +3135,7 @@
 	position:relative;
 	width:100%;
 	display:block;
-	
+
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -3230,7 +3230,7 @@
 	padding-top:30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Faq One
@@ -3331,7 +3331,7 @@
     border-radius: 360px; /* Slightly larger for a smooth effect */
 }
 
-/*** 
+/***
 
 ====================================================================
 	Accordion Style
@@ -3422,11 +3422,11 @@
 }
 
 .accordion-box .block .acc-content .content-text{
-	
+
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
@@ -3444,7 +3444,7 @@
 	background-color:#feefff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Offer Two
@@ -3565,7 +3565,7 @@
 	margin-top:30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Price One
@@ -3606,7 +3606,7 @@
 }
 
 .pricing-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .pricing-tabs .buttons-outer{
@@ -3870,7 +3870,7 @@
     background-image: linear-gradient(0deg, rgba(0, 13, 255, 1) 0%, rgba(193, 21, 236, 1) 100%);
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Two
@@ -3908,7 +3908,7 @@
 }
 
 .news-two_images-outer{
-	
+
 }
 
 .sticky-top{
@@ -3925,7 +3925,7 @@
 	position:relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Slider Three
@@ -4250,7 +4250,7 @@
 	font-size:16px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Employer One
@@ -4402,7 +4402,7 @@
 	margin-top:30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	About Three
@@ -4587,7 +4587,7 @@
     font-family: "Raleway", serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Two
@@ -4605,7 +4605,7 @@
 	overflow:visible;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Inspire One
@@ -4656,7 +4656,7 @@
 	color: var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Clients Two
@@ -4717,7 +4717,7 @@
 	opacity:0.50;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Business One
@@ -4848,7 +4848,7 @@
     top: -162px;
     bottom: -120px;
     width: 200%;
-    background: url(../images/background/video-shape.html);
+    background: url(../images/background/video-shape.);
     background-position: right top;
     background-repeat: no-repeat;
 }
@@ -4920,7 +4920,7 @@
 	margin-top: 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Two
@@ -5206,7 +5206,7 @@
 	justify-content:end;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Two
@@ -5418,7 +5418,7 @@
 	font-family: "Outfit", serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact One
@@ -5654,7 +5654,7 @@
 	bottom:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Three
@@ -5808,7 +5808,7 @@
 	opacity:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	CTA One
@@ -5950,7 +5950,7 @@
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
 	-o-transition: all 300ms ease;
-	transition: all 300ms ease;	
+	transition: all 300ms ease;
 }
 
 .page-title .bread-crumb li a:hover{
@@ -6023,7 +6023,7 @@
 	margin-top:30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Project Detail
@@ -6240,7 +6240,7 @@
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .coming-soon .emailed-form .form-group input:focus,
@@ -6264,7 +6264,7 @@
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .coming-soon .emailed-form .form-group input[type="submit"]:hover,
@@ -6765,7 +6765,7 @@
 	margin-bottom:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Three
@@ -6903,7 +6903,7 @@
 	opacity:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Detail
@@ -6996,7 +6996,7 @@
 	margin-bottom:25px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Team Tabs Style
@@ -7035,7 +7035,7 @@
 
 .team-tabs .tab-btns .tab-btn:hover,
 .team-tabs .tab-btns .tab-btn.active-btn{
-	color:var(--white-color); 
+	color:var(--white-color);
 	background-color: rgba(0, 13, 255, 1);
     background-image: linear-gradient(90deg, rgba(0, 13, 255, 1) 0%, rgba(193, 21, 236, 1) 100%);
 }
@@ -7052,7 +7052,7 @@
 }
 
 .team-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .team-detail_contact{
@@ -7116,7 +7116,7 @@
 .contact-form .form-group input[type="email"]:focus,
 .contact-form .form-group select:focus,
 .contact-form .form-group textarea:focus{
-	
+
 }
 
 .contact-form .form-group .theme-btn{
@@ -7146,10 +7146,10 @@
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus{
-	
+
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Four
@@ -7162,7 +7162,7 @@
 	padding:110px 0px 110px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Styled Pagination
@@ -8080,7 +8080,7 @@
 	margin-bottom:10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comments Area
@@ -8201,7 +8201,7 @@
 	background-color: var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comment Form
@@ -8300,7 +8300,7 @@
 	padding:17px 40px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Two
@@ -8369,7 +8369,7 @@
 	color:var(--black-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Map One
@@ -8388,7 +8388,7 @@
 	border-radius: 20px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Privacy Section
@@ -8462,7 +8462,7 @@
 	background-color:var(--main-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Three
@@ -8578,7 +8578,7 @@
 	border:4px solid var(--white-color);
 	background:var(--main-color);
 	border-radius:0px;
-	cursor:pointer;	
+	cursor:pointer;
 }
 
 .range-slider-one .theme-btn{
@@ -8611,7 +8611,7 @@
 
 .sidebar .related-posts .post .post-thumb img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .sidebar .related-posts .post h4{
@@ -8870,7 +8870,7 @@
 	color:var(--white-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Shop Detail
@@ -9055,7 +9055,7 @@
 
 .quantity-box .bootstrap-touchspin .input-group-btn-vertical > .btn.bootstrap-touchspin-down:hover,
 .quantity-box .bootstrap-touchspin .input-group-btn-vertical > .btn.bootstrap-touchspin-up:hover{
-	
+
 }
 
 .quantity-box .bootstrap-touchspin .glyphicon-chevron-up:before {
@@ -9084,7 +9084,7 @@
 .quantity-box .bootstrap-touchspin .input-group-btn-vertical i{
 	top: 6px;
 	left: 14px;
-	font-size: inherit !important; 
+	font-size: inherit !important;
 }
 
 .quantity-box .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down{
@@ -9161,7 +9161,7 @@
 	background-color: var(--color-two);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Product Tabs Style
@@ -9209,7 +9209,7 @@
 
 .shop-detail .prod-tabs .tab-btns .tab-btn:hover,
 .shop-detail .prod-tabs .tab-btns .tab-btn.active-btn{
-	color:var(--white-color); 
+	color:var(--white-color);
 	background-color: var(--main-color);
 }
 
@@ -9225,7 +9225,7 @@
 }
 
 .shop-detail .prod-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 .prod-tabs .tabs-content p{
@@ -9389,7 +9389,7 @@
 	text-transform: uppercase;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Cart Section
@@ -9422,7 +9422,7 @@
 
 .cart-section .cart-table{
 	width:100%;
-	min-width:900px;	
+	min-width:900px;
 }
 
 .cart-table .cart-header{
@@ -9480,7 +9480,7 @@
 	left:0px;
 	top:0px;
 	padding:10px 10px;
-	border:1px solid #f0f0f0;	
+	border:1px solid #f0f0f0;
 }
 
 .cart-table .cross-icon{
@@ -9556,7 +9556,7 @@
 }
 
 .cart-table tbody tr{
-	border-bottom:1px solid #f0f0f0;	
+	border-bottom:1px solid #f0f0f0;
 }
 
 .cart-table tbody tr td.price{
@@ -9578,7 +9578,7 @@
 
 .shoping-cart-section .total-column .inner-column{
 	position:relative;
-	
+
 }
 
 .shoping-cart-section .total-column .title-box{
@@ -9707,7 +9707,7 @@
 
 .shoping-cart-section .check-box input[type="checkbox"]:checked + label:after {
 	max-width: 20px;
-	opacity: 1;	
+	opacity: 1;
 }
 
 /* Shipping Outer */
@@ -9773,7 +9773,7 @@
 	position:relative;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Shipping Form
@@ -9939,7 +9939,7 @@
 
 .shipping-form .check-box input[type="checkbox"]:checked + label:after {
 	max-width: 20px;
-	opacity: 1;	
+	opacity: 1;
 }
 
 .shipping-form .theme-btn{
@@ -10072,7 +10072,7 @@
 	background-color:var(--black-color);
 }
 
-/*** 
+/***
 
 ====================================================================
 	Register One

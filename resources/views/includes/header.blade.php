@@ -57,16 +57,16 @@
                                         <a href="{{ route('home') }}">Home</a>
                                     </li>
                                     <li class="">
-                                        <a href="{{ route('home') }}">Products</a>
+                                        <a href="{{ route('products') }}">Products</a>
                                     </li>
                                     <li class="">
                                         <a href="{{ route('about') }}">About</a>
                                     </li>
                                     <li class="">
-                                        <a href="{{ route('home') }}">Blogs</a>
+                                        <a href="{{ route('blogs') }}">Blogs</a>
                                     </li>
                                     <li class="">
-                                        <a href="{{ route('home') }}">Contact</a>
+                                        <a href="{{ route('contact') }}">Contact</a>
                                     </li>
                                 </ul>
                             </div>
