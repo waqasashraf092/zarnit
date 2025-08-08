@@ -21,7 +21,7 @@
                         <!-- Content Column -->
                         <div class="slider-three_content d-flex justify-content-end">
                             <div class="slider-three_content-inner">
-                                <div class="slider-three_title">Consultings</div>
+                                <div class="slider-three_title">Consulting</div>
                                 <h1 class="slider-three_heading">IT
                                     <span>Solution</span>
                                 </h1>
@@ -31,10 +31,10 @@
                                     beautiful tools that bridge technology and everyday productivity.
                                 </div>
                                 <div class="slider-three_button d-flex align-items-center flex-wrap">
-                                    <a href="{{ route('home') }}" class="theme-btn btn-style-one">
+                                    <a href="{{ route('auth.signup') }}" class="theme-btn btn-style-one">
 										<span class="btn-wrap">
-											<span class="text-one">Get Start Project</span>
-											<span class="text-two">Get Start Project</span>
+											<span class="text-one">Get Early Access</span>
+											<span class="text-two">Get Early Access</span>
 										</span>
                                     </a>
                                 </div>
@@ -269,10 +269,10 @@
                 </div>
                 <!-- Button Box -->
                 <div class="empower-one_button">
-                    <a href="javascript:void(0)" class="theme-btn btn-style-one">
+                    <a href="{{ route('auth.signup') }}" class="theme-btn btn-style-one">
 						<span class="btn-wrap">
-							<span class="text-one">competitive</span>
-							<span class="text-two">competitive</span>
+							<span class="text-one">Join our Program</span>
+							<span class="text-two">Join our Program</span>
 						</span>
                     </a>
                 </div>
@@ -318,7 +318,7 @@
                             </div>
                             <!-- Button Box -->
                             <div class="about-three_button">
-                                <a href="javascript:void(0)" class="theme-btn btn-style-one">
+                                <a href="{{ route('about') }}" class="theme-btn btn-style-one">
 									<span class="btn-wrap">
 										<span class="text-one">Discover more</span>
 										<span class="text-two">Discover more</span>
@@ -667,8 +667,17 @@
                                     <!-- Button Box -->
                                     <button type="submit" class="theme-btn btn-style-one">
                                     <span class="btn-wrap">
-                                        <span class="text-one">Book now</span>
-                                        <span class="text-two">Book now</span>
+                                        <span class="text-one">Subscribe</span>
+                                        <span class="text-two">Subscribe</span>
+                                    </span>
+                                    </button>
+                                </div>
+                                <div class="form-group">
+                                    <!-- Button Box -->
+                                    <button type="submit" class="theme-btn btn-style-one">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Subscribe</span>
+                                        <span class="text-two">Subscribe</span>
                                     </span>
                                     </button>
                                 </div>

@@ -12,7 +12,7 @@
             </div>
             <div class="cta-one_btn">
                 <div class="news-three_button">
-                    <a href="javascript:void(0)" class="theme-btn btn-style-one">
+                    <a href="{{ route('auth.signup') }}" class="theme-btn btn-style-one">
                         <span class="btn-wrap">
                             <span class="text-one">Get Early Access</span>
                             <span class="text-two">Get Early Access</span>
@@ -42,7 +42,7 @@
                         <div class="footer-three_column col-lg-6 col-md-6 col-sm-12">
                             <div class="footer-three_widget logo-widget">
                                 <div class="footer-three_logo">
-                                    <a href="javascript:void(0)">
+                                    <a href="{{ route('home') }}">
                                         <img src="{{ asset('images/zarnite-logo.png') }}" style="height: 40px" alt="" title="">
                                     </a>
                                 </div>
@@ -68,7 +68,7 @@
                                             <div class="instagram-block_one-image">
                                                 <img src="{{ asset('images/gallery/instagram-1.jpg') }}" alt="" />
                                                 <div class="instagram-block_one-overlay">
-                                                    <a href="assets/images/gallery/instagram-1.jpg" class="lightbox-image instagram-block_one-icon">
+                                                    <a href="{{ asset('images/gallery/instagram-1.jpg') }}" class="lightbox-image instagram-block_one-icon">
                                                         <i class=""><img src="{{ asset('images/gallery/instagram.svg') }}" alt="" /></i>
                                                     </a>
                                                 </div>
@@ -81,7 +81,7 @@
                                             <div class="instagram-block_one-image">
                                                 <img src="{{ asset('images/gallery/instagram-2.jpg') }}" alt="" />
                                                 <div class="instagram-block_one-overlay">
-                                                    <a href="assets/images/gallery/instagram-2.jpg" class="lightbox-image instagram-block_one-icon">
+                                                    <a href="{{ asset('images/gallery/instagram-2.jpg') }}" class="lightbox-image instagram-block_one-icon">
                                                         <i class=""><img src="{{ asset('images/gallery/instagram.svg') }}" alt="" /></i>
                                                     </a>
                                                 </div>
@@ -94,7 +94,7 @@
                                             <div class="instagram-block_one-image">
                                                 <img src="{{ asset('images/gallery/instagram-3.jpg') }}" alt="" />
                                                 <div class="instagram-block_one-overlay">
-                                                    <a href="assets/images/gallery/instagram-3.jpg" class="lightbox-image instagram-block_one-icon">
+                                                    <a href="{{ asset('images/gallery/instagram-3.jpg') }}" class="lightbox-image instagram-block_one-icon">
                                                         <i class=""><img src="{{ asset('images/gallery/instagram.svg') }}" alt="" /></i>
                                                     </a>
                                                 </div>
@@ -107,7 +107,7 @@
                                             <div class="instagram-block_one-image">
                                                 <img src="{{ asset('images/gallery/instagram-4.jpg') }}" alt="" />
                                                 <div class="instagram-block_one-overlay">
-                                                    <a href="assets/images/gallery/instagram-4.jpg" class="lightbox-image instagram-block_one-icon">
+                                                    <a href="{{ asset('images/gallery/instagram-4.jpg') }}" class="lightbox-image instagram-block_one-icon">
                                                         <i class=""><img src="{{ asset('images/gallery/instagram.svg') }}" alt="" /></i>
                                                     </a>
                                                 </div>
@@ -120,7 +120,7 @@
                                             <div class="instagram-block_one-image">
                                                 <img src="{{ asset('images/gallery/instagram-5.jpg') }}" alt="" />
                                                 <div class="instagram-block_one-overlay">
-                                                    <a href="assets/images/gallery/instagram-5.jpg" class="lightbox-image instagram-block_one-icon">
+                                                    <a href="{{ asset('images/gallery/instagram-5.jpg') }}" class="lightbox-image instagram-block_one-icon">
                                                         <i class=""><img src="{{ asset('images/gallery/instagram.svg') }}" alt="" /></i>
                                                     </a>
                                                 </div>
@@ -186,7 +186,7 @@
                                 </div>
                                 <!-- Social Box -->
                                 <div class="footer-three_socials">
-                                    <a href="https://www.facebook.com/Zanite"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.facebook.com/Zanite"><i class="fa-classic fa-facebook-f"></i></a>
                                     <a href="https://twitter.com/zarnite13889"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="https://www.tiktok.com/@zarn_it"><i class="fa-brands fa-youtube"></i></a>
                                     <a href="https://www.instagram.com/zarn_ite"><i class="fa-brands fa-instagram"></i></a>

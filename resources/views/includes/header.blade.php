@@ -63,7 +63,7 @@
                                         <a href="{{ route('about') }}">About</a>
                                     </li>
                                     <li class="">
-                                        <a href="{{ route('blogs') }}">Blogs</a>
+                                        <a href="{{ route('blogs.index') }}">Blogs</a>
                                     </li>
                                     <li class="">
                                         <a href="{{ route('contact') }}">Contact</a>
@@ -78,7 +78,7 @@
 
                         <!-- Button Box -->
                         <div class="main-header_button">
-                            <a href="{{ route('home') }}" class="theme-btn btn-style-one">
+                            <a href="{{ route('auth.signup') }}" class="theme-btn btn-style-one">
                                 <span class="btn-wrap">
                                     <span class="text-one">Get Started</span>
                                     <span class="text-two">Get Started</span>
