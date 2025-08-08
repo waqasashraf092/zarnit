@@ -19,7 +19,7 @@ Route::get('/blogs', function () {
 })->name('blogs');
 
 Route::get('/contact', function () {
-    return view('about');
+    return view('contact');
 })->name('contact');
 
 Route::get('/login', function () {

@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Welcome to Your Laravel App')
+@section('title', 'Modern AI Technology Company')
 @section('styles')
     <style>
 

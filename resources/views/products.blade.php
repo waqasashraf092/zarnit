@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Welcome to Your Laravel App')
+@section('title', 'Products')
 @section('styles')
     <style>
         .feature-list ul, .feature-list li{
