@@ -1,170 +1,45 @@
-<nav class="navbar navbar-expand-lg fixed-top white-nav" id="navbar">
-    <div class="container mw-1880">
-        <a class="navbar-brand me-50" href="{{ route('home') }}">
-            <img src="{{ asset('images/zarnite-logo.png') }}" style="width: 140px" class="main-logo" alt="logo">
-            <img src="{{ asset('images/zarnite-logo.png') }}" style="width: 140px" class="white-logo d-none" alt="logo">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top backdrop-blur">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary fs-3" href="{{ route('home.index') }}">
+            <img src="{{ asset('images/zarnite-logo.png') }}" style="height: 40px" />
         </a>
-        <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-            <span class="burger-menu">
-                <span class="top-bar"></span>
-                <span class="middle-bar"></span>
-                <span class="bottom-bar"></span>
-            </span>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{ route('home') }}">
-                        Home
-                    </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{ route('home') }}">
-                        Products
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('home.products') ? 'active' : '' }}" href="{{ route('home.products') }}">Products</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{ route('home') }}">
-                        About
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('about') ? 'active' : '' }}" href="{{ route('home.about') }}">About</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{ route('home') }}">
-                        Blogs
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('blogs') ? 'active' : '' }}" href="{{ route('blogs.index') }}">Blog</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="{{ route('home') }}">
-                        Contact
-                    </a>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->is('contact-us') ? 'active' : '' }}" href="{{ route('home.contact') }}">Contact</a>
                 </li>
             </ul>
-        </div>
 
-        <ul class="d-sm-flex d-none p-0 m-0 list-unstyled justify-content-end align-items-center others-options">
-            <li class="option-item">
-                <div class="dropdown">
-                    <button class="btn btn-sm border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="ri-global-line"></i>
-                        <span>English</span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>English</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>Español</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>Français</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>中文</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="d-flex align-items-center gap-3">
+                <div class="d-none d-md-flex align-items-center gap-2 text-color-z fw-bold">
+                    <i class="bi bi-globe"></i>
+                    <span class="small">English</span>
                 </div>
-            </li>
-            <li class="option-item">
-                <button type="button" id="ciram-light-dark" class="ciram-light-dark btn btn-sm rounded-circle">
-                    <i class="ri-moon-line"></i>
-                    <i class="ri-sun-line d-none"></i>
+
+                <button class="btn btn-outline-light btn-sm rounded-pill text-color-z fw-bold border-0" id="themeToggle">
+                    <i class="bi bi-sun theme-icon-light"></i>
+                    <i class="bi bi-moon theme-icon-dark d-none"></i>
                 </button>
-            </li>
-            <li class="option-item">
-                <a href="#" class="btn btn-warning">
-                    Get Started
-                </a>
-            </li>
-        </ul>
+
+                <a href="{{ route('home.early-access') }}" class="btn btn-primary d-none d-md-inline-flex">Get Started</a>
+            </div>
+        </div>
     </div>
 </nav>
-
-<div class="offcanvas offcanvas-end for-mobile-navbar" tabindex="-1" id="offcanvasExample">
-    <div class="offcanvas-header">
-        <a href="{{ route('home') }}" class="d-block logo">
-            <img src="{{ asset('images/zarnite-logo.png') }}" style="width: 140px" class="main-logo" alt="logo">
-            <img src="{{ asset('images/zarnite-logo.png') }}" style="width: 140px" class="white-logo d-none" alt="logo">
-        </a>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-            <i class="ri-close-large-line"></i>
-        </button>
-    </div>
-    <div class="offcanvas-body">
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <a href="{{ route('home') }}" class="accordion-button collapsed after active">Home</a>
-            </div>
-            <div class="accordion-item">
-                <a href="{{ route('home') }}" class="accordion-button collapsed after">Products</a>
-            </div>
-            <div class="accordion-item">
-                <a href="{{ route('home') }}" class="accordion-button collapsed after">About</a>
-            </div>
-            <div class="accordion-item">
-                <a href="{{ route('home') }}" class="accordion-button collapsed after">Blogs</a>
-            </div>
-            <div class="accordion-item">
-                <a href="{{ route('home') }}" class="accordion-button collapsed after">Contact</a>
-            </div>
-        </div>
-        <ul class="d-flex d-sm-none p-0 m-0 list-unstyled align-items-center others-options position-static mt-4">
-            <li class="option-item">
-                <div class="dropdown">
-                    <button class="btn btn-sm border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="ri-global-line"></i>
-                        <span>English</span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>English</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>Español</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>Français</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item d-flex justify-content-between" href="#">
-                                <span>中文</span>
-                                <i class="ri-check-line"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="option-item">
-                <button type="button" id="ciram-light-dark" class="ciram-light-dark btn btn-sm rounded-circle">
-                    <i class="ri-moon-line"></i>
-                    <i class="ri-sun-line d-none"></i>
-                </button>
-            </li>
-            <li class="option-item">
-                <a href="#" class="btn btn-warning">
-                    Get Started
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>

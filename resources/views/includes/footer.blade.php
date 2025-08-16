@@ -1,117 +1,51 @@
-<div class="footer-area bg-img pt-120" style="background-image:url({{ asset('images/footer-bg.jpg') }})">
-    <div class="container">
+<footer class="bg-white border-top">
+    <div class="container py-5">
+        <!-- Footer Content -->
         <div class="row g-4">
-            <div class="col-lg-3 col-sm-6">
-                <div class="footer-single-item">
-                    <a href="index.html" class="d-inline-block text-decoration-none footer-logo">
-                        <img src="{{ asset('images/white-logo.svg') }}" alt="white-logo">
-                    </a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quibusdam cupiditate obcaecati voluptatem vitae facilis sequi</p>
-                    <h4>Social Media</h4>
-                    <ul class="p-0 m-0 list-unstyled d-flex align-items-center gap-2 social-link">
-                        <li>
-                            <a href="javascript:void(0);">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);">
-                                <i class="ri-twitter-x-line"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);">
-                                <i class="ri-linkedin-fill"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:void(0);">
-                                <i class="ri-youtube-line"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-lg-3">
+                <a href="index.html" class="text-decoration-none">
+                    <h4 class="text-primary fw-bold">Zarnite</h4>
+                </a>
+                <p class="text-muted small">A forward-thinking software company crafting smart, beautiful tools that bridge technology and everyday productivity.</p>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="footer-single-item"><h3>Services</h3>
-                    <ul class="p-0 m-0 list-unstyled import-link">
-                        <li>
-                            <a href="service-details.html">Application</a>
-                        </li>
-                        <li>
-                            <a href="service-details.html">DDOS Cyber Protection</a>
-                        </li>
-                        <li>
-                            <a href="service-details.html">Network</a>
-                        </li>
-                        <li>
-                            <a href="service-details.html">Security</a>
-                        </li>
-                        <li>
-                            <a href="service-details.html">Disaster Planning</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-lg-3">
+                <h6 class="fw-semibold mb-3">Products</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="products.html" class="text-muted text-decoration-none">Zarn</a></li>
+                    <li class="mb-2"><a href="products.html" class="text-muted text-decoration-none">Reolyy</a></li>
+                    <li class="mb-2"><a href="early-access.html" class="text-muted text-decoration-none">Early Access</a></li>
+                </ul>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="footer-single-item"><h3>Company</h3>
-                    <ul class="p-0 m-0 list-unstyled import-link">
-                        <li>
-                            <a href="about-us.html">About</a>
-                        </li>
-                        <li>
-                            <a href="pricing.html">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="contact-us.html">Contact</a>
-                        </li>
-                        <li>
-                            <a href="privacy-policy.html">Policies</a>
-                        </li>
-                        <li>
-                            <a href="products.html">Shop</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-lg-3">
+                <h6 class="fw-semibold mb-3">Company</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="about.html" class="text-muted text-decoration-none">About Us</a></li>
+                    <li class="mb-2"><a href="blog.html" class="text-muted text-decoration-none">Blog</a></li>
+                    <li class="mb-2"><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                </ul>
             </div>
-            <div class="col-lg-3 col-sm-6">
-                <div class="footer-single-item"><h3>Contact</h3>
-                    <ul class="p-0 m-0 list-unstyled contact-link">
-                        <li class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <i class="ri-phone-line"></i>
-                            </div>
-                            <div class="flex-grow-1">
-                                <a href="tel:+18002162020">+1 (800) 216 2020</a>
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <i class="ri-mail-line"></i>
-                            </div>
-                            <div class="flex-grow-1">
-                                <a href="mailto:info@ciram.com">info@ciram.com</a>
-                            </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <div class="flex-shrink-0">
-                                <i class="ri-map-pin-line"></i>
-                            </div>
-                            <div class="flex-grow-1">
-                                <p>Address 2750 Quadra Street Victoria, Canada.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-lg-3">
+                <h6 class="fw-semibold mb-3">Support</h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="mailto:support@zanite.inc" class="text-muted text-decoration-none">Email Support</a></li>
+                    <li class="mb-2">
+                        <small class="text-muted">
+                            1111B S Governors Ave STE 21630<br>
+                            Dover, DE, 19904 US
+                        </small>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="container copyright">
-            <p>
-                Copyright
-                <span>Ciram</span>
-                All Rights Reserved
-                <span>Ciram</span>
-            </p>
+
+        <!-- Bottom Bar -->
+        <hr class="my-4">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p class="text-muted mb-0">© 2024 Zarnite. All rights reserved.</p>
+            <div class="d-flex gap-4 mt-3 mt-md-0">
+                <a href="#" class="text-muted text-decoration-none small">Privacy Policy</a>
+                <a href="#" class="text-muted text-decoration-none small">Terms of Service</a>
+            </div>
         </div>
     </div>
-</div>
+</footer>
