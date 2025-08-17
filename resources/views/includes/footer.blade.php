@@ -3,7 +3,7 @@
         <!-- Footer Content -->
         <div class="row g-4">
             <div class="col-lg-3">
-                <a href="index.html" class="text-decoration-none">
+                <a href="{{ route('home.index') }}" class="text-decoration-none">
                     <h4 class="text-primary fw-bold">Zarnite</h4>
                 </a>
                 <p class="text-muted small">A forward-thinking software company crafting smart, beautiful tools that bridge technology and everyday productivity.</p>
@@ -11,17 +11,17 @@
             <div class="col-lg-3">
                 <h6 class="fw-semibold mb-3">Products</h6>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="products.html" class="text-muted text-decoration-none">Zarn</a></li>
-                    <li class="mb-2"><a href="products.html" class="text-muted text-decoration-none">Reolyy</a></li>
-                    <li class="mb-2"><a href="early-access.html" class="text-muted text-decoration-none">Early Access</a></li>
+                    <li class="mb-2"><a href="{{ route('home.products') }}" class="text-muted text-decoration-none">Zarn</a></li>
+                    <li class="mb-2"><a href="{{ route('home.products') }}" class="text-muted text-decoration-none">Reolyy</a></li>
+                    <li class="mb-2"><a href="{{ route('home.early-access') }}" class="text-muted text-decoration-none">Early Access</a></li>
                 </ul>
             </div>
             <div class="col-lg-3">
                 <h6 class="fw-semibold mb-3">Company</h6>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="about.html" class="text-muted text-decoration-none">About Us</a></li>
-                    <li class="mb-2"><a href="blog.html" class="text-muted text-decoration-none">Blog</a></li>
-                    <li class="mb-2"><a href="contact.html" class="text-muted text-decoration-none">Contact</a></li>
+                    <li class="mb-2"><a href="{{ route('home.about') }}" class="text-muted text-decoration-none">About Us</a></li>
+                    <li class="mb-2"><a href="{{ route('blogs.index') }}" class="text-muted text-decoration-none">Blog</a></li>
+                    <li class="mb-2"><a href="{{ route('home.contact') }}" class="text-muted text-decoration-none">Contact</a></li>
                 </ul>
             </div>
             <div class="col-lg-3">
