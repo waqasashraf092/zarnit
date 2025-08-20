@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Contact Us')
+@section('title', __('l.contact_us_title'))
 
 @section('content')
     @include('shared.page-header', [
-        'tag' => 'Contact Us',
-        'title' => 'Contact Zarnite',
-        'sub_title' => 'Get in touch with our team for questions, support, or partnership inquiries.',
+        'tag' => __('l.contact_us_tag'),
+        'title' => __('l.contact_zarnite'),
+        'sub_title' => __('l.contact_subtitle'),
     ])
 
     <section class="bg-light" style="padding: 50px 0">
@@ -14,9 +14,9 @@
             <div class="row g-4 mt-2">
                 <div class="col-lg-6">
                     <div class="pe-lg-5">
-                        <h2 class="display-6 fw-bold mb-3">Contact Information</h2>
+                        <h2 class="display-6 fw-bold mb-3">{{ __('l.contact_information') }}</h2>
                         <p class="lead text-muted mb-4">
-                            We're here to help with any questions or feedback. Reach out to us using the contact form or through any of the methods below.
+                            {{ __('l.contact_information_description') }}
                         </p>
                         <ul class="list-unstyled">
                             <li class="d-flex align-items-center mb-3">
@@ -24,7 +24,7 @@
                                     <i class="bi bi-envelope-at text-color-z fs-4"></i>
                                 </div>
                                 <div>
-                                    <h6 class="m-0 p-0">Email Us</h6>
+                                    <h6 class="m-0 p-0">{{ __('l.email_us') }}</h6>
                                     <span class="text-muted">support@zanite.inc</span>
                                 </div>
                             </li>
@@ -33,7 +33,7 @@
                                     <i class="bi bi-geo-alt text-color-z fs-4"></i>
                                 </div>
                                 <div>
-                                    <h6 class="m-0 p-0">Our Address</h6>
+                                    <h6 class="m-0 p-0">{{ __('l.our_address') }}</h6>
                                     <span class="text-muted">1111B S Governors Ave STE 21630 Dover, DE, 19904 US</span>
                                 </div>
                             </li>
@@ -42,7 +42,7 @@
                                     <i class="bi bi-share text-color-z fs-4"></i>
                                 </div>
                                 <div>
-                                    <h6 class="m-0 p-0">Follow Us</h6>
+                                    <h6 class="m-0 p-0">{{ __('l.follow_us') }}</h6>
                                     <div class="d-flex gap-3">
                                         <a href="{{ config('app.link_instagram') }}" class="text-color-z" target="_blank">
                                             <i class="bi bi-instagram"></i>
@@ -77,33 +77,33 @@
                 <div class="col-lg-6">
                     <div class="card bg-white">
                         <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">Send a Message</h4>
+                            <h4 class="fw-bold mb-4">{{ __('l.send_message') }}</h4>
                             <form id="earlyAccessForm">
                                 <div class="row g-3">
                                     <div class="col-md-6">
-                                        <label for="firstName" class="form-label">First Name *</label>
+                                        <label for="firstName" class="form-label">{{ __('l.first_name') }}</label>
                                         <input type="text" class="form-control form-control" id="firstName" required="">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="lastName" class="form-label">Last Name *</label>
+                                        <label for="lastName" class="form-label">{{ __('l.last_name') }}</label>
                                         <input type="text" class="form-control form-control" id="lastName" required="">
                                     </div>
                                     <div class="col-12">
-                                        <label for="email" class="form-label">Email Address *</label>
+                                        <label for="email" class="form-label">{{ __('l.email_address') }}</label>
                                         <input type="email" class="form-control form-control" id="email" required="">
                                     </div>
                                     <div class="col-12">
-                                        <label for="company" class="form-label">Subject *</label>
+                                        <label for="company" class="form-label">{{ __('l.subject') }}</label>
                                         <input type="text" class="form-control form-control" id="company">
                                     </div>
                                     <div class="col-12">
-                                        <label for="useCase" class="form-label">Message *</label>
+                                        <label for="useCase" class="form-label">{{ __('l.message') }}</label>
                                         <textarea class="form-control" id="useCase" rows="4"></textarea>
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" class="btn btn-primary btn-lg w-100">
                                             <i class="bi bi-send me-2"></i>
-                                            Send Message
+                                            {{ __('l.send_message') }}
                                         </button>
                                     </div>
                                 </div>

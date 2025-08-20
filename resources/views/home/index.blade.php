@@ -522,6 +522,43 @@
             </div>
         </div>
     </section>
+
+    <!-- Partnership Section -->
+    <section class="py-5 bg-white">
+        <div class="container py-2">
+            <div class="bg-light rounded-4 p-5 text-center">
+                <span class="badge bg-outline-primary mb-3">{{ __('l.partnership') }}</span>
+                <h2 class="display-6 fw-bold mb-5">Zarnite {{ __('l.partnership') }}</h2>
+                <div class="row mt-3">
+                    <div class="col-4">
+                        <a href="https://elevenlabs.io/text-to-speech" class="theme-icon-light">
+                            <img src="https://eleven-public-cdn.elevenlabs.io/payloadcms/pwsc4vchsqt-ElevenLabsGrants.webp" alt="Text to Speech" style="width:250px; margin-top: 40px">
+                        </a>
+                        <a href="https://elevenlabs.io/text-to-speech" class="theme-icon-dark d-none">
+                            <img src="https://eleven-public-cdn.elevenlabs.io/payloadcms/cy7rxce8uki-IIElevenLabsGrants%201.webp" alt="Text to Speech" style="width:250px; margin-top: 40px">
+                        </a>
+                    </div>
+                    <div class="col-4">
+                        <img src="{{ asset('images/microsoft_light.png') }}" style="width: 370px; margin-top: -20px;" class="theme-icon-light" />
+                        <img src="{{ asset('images/microsoft_dark.png') }}" style="width: 370px; margin-top: -20px;" class="theme-icon-dark d-none" />
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex justify-content-center align-items-center gap-3">
+                            <div>
+                                <img src="{{ asset('images/nvidia-light.svg') }}" style="width: 150px" class="theme-icon-light" />
+                                <img src="{{ asset('images/nvidia-dark.svg') }}" style="width: 150px" class="theme-icon-dark d-none" />
+                            </div>
+                            <div class="text-color-z" style="font-size: 26px; font-weight: bold; line-height:30px">
+                                <div>Inception</div>
+                                <div>Program</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
 
 @section('scripts')

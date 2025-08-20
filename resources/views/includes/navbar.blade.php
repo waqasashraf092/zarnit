@@ -40,7 +40,7 @@
             <div class="d-flex align-items-center gap-3">
                 <div class="d-none d-md-flex align-items-center gap-2 text-color-z fw-bold">
                     <div class="btn-group">
-                        <button type="button" class="btn btn-outline-light btn-sm dropdown-toggle text-color-z" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button type="button" class="btn btn-outline-light btn-sm dropdown-toggle text-color-z border-0" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="bi bi-globe me-2"></i>
                             @php
                                 $languages = config('app.languages');

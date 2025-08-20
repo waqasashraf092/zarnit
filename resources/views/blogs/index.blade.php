@@ -4,9 +4,9 @@
 
 @section('content')
     @include('shared.page-header', [
-        'tag' => 'Our Blogs',
-        'title' => 'Zarnite Blogs',
-        'sub_title' => 'Insights, updates, and thought leadership on AI, productivity, and technology trends.',
+        'tag' => __('l.blogs_tag'),
+        'title' => __('l.blogs_title'),
+        'sub_title' => __('l.blogs_subtitle'),
     ])
 
     <!-- Featured Article -->

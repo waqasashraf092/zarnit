@@ -1,12 +1,12 @@
 @extends('layout')
 
-@section('title', 'Products')
+@section('title', __('l.products_title'))
 
 @section('content')
     @include('shared.page-header', [
-        'tag' => 'Our Products',
-        'title' => 'AI-Powered Solutions',
-        'sub_title' => 'Cutting-edge tools designed to enhance your productivity and creativity. Experience the future of software with our intelligent, beautiful applications.',
+        'tag' => __('l.our_products'),
+        'title' => __('l.ai_powered_solutions'),
+        'sub_title' => __('l.products_subtitle'),
     ])
 
     @foreach($products as $p)
@@ -16,7 +16,7 @@
                     <div class="col-lg-6 mb-4 mb-lg-0">
                         <div class="card border-0 shadow">
                             <div class="ratio ratio-16x9">
-                                <img src="{{ $p['image'] }}" class="card-img object-fit-cover" alt="Product">
+                                <img src="{{ $p['image'] }}" class="card-img object-fit-cover" alt="{{ __('l.product_alt') }}">
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
 
                             <!-- Features -->
                             <div class="mb-4">
-                                <h4 class="mb-3">Key Features</h4>
+                                <h4 class="mb-3">{{ __('l.key_features') }}</h4>
                                 <ul class="list-unstyled">
                                     @foreach($p['features'] as $f)
                                         <li class="d-flex align-items-center mb-2">
@@ -52,7 +52,7 @@
                                 </ul>
                             </div>
                             <a href="{{ route('home.early-access') }}" class="btn btn-primary btn-lg">
-                                Notify Me When Available
+                                {{ __('l.notify_me') }}
                             </a>
                         </div>
                     </div>

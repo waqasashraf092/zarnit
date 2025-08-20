@@ -1,6 +1,7 @@
 @extends('layout')
 
-@section('title', 'Welcome to Your Laravel App')
+@section('title', __('l.blogs_title'))
+
 @section('styles')
     <style>
 

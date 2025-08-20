@@ -1,7 +1,7 @@
 <?php
 
 return [
-    // menu
+    // Header
     'app_title' => 'Zarnite - AI-Powered Productivity Tools',
     'app_desc' => 'Zarnite is a forward-thinking software company crafting smart, beautiful tools that bridge technology and everyday productivity.',
     'Home' => 'Home',
@@ -10,8 +10,15 @@ return [
     'Blog' => 'Blog',
     'Contact' => 'Contact',
     'Get Started' => 'Get Started',
+    'Company' => 'Company',
+    'Support' => 'Support',
+    'Email Support' => 'Email Support',
+    'Privacy Policy' => 'Privacy Policy',
+    'Terms of Service' => 'Terms of Service',
+    'All rights reserved' => 'All rights reserved',
 
-    // index.home
+
+    // Existing keys from index.blade.php
     'title' => 'Zarnite - Modern AI Technology Company',
     'hero_title_part1' => 'Empowering creators, builders,',
     'hero_title_part2' => 'and businesses to reach new heights!',
@@ -57,7 +64,7 @@ return [
     'vision_description' => 'To be a global leader in intelligent software, empowering the next generation of creators, builders, and businesses to reach new heights.',
     'mission' => 'Mission',
     'mission_description' => 'To continually push the boundaries of what software can do—delivering tools that are fast, intelligent, and built for the future.',
-    'proudly_supported' => 'Proudly supported by Microsoft Founders FundComing Soon',
+    'proudly_supported' => 'Proudly supported by Microsoft Founders Fund',
     'our_blog' => 'Our Blog',
     'latest_insights' => 'Latest Insights',
     'explore_latest_thoughts' => 'Explore our latest thoughts on technology, AI, and the future of productivity.',
@@ -112,4 +119,88 @@ return [
     'image_alt' => 'image',
     'zarn_alt' => 'Zarn',
     'reolyy_alt' => 'Reolyy',
+
+    // Keys from about.blade.php
+    'about_us_title' => 'About Us',
+    'about_us_tag' => 'About Us',
+    'about_zarnite' => 'About Zarnite',
+    'about_zarnite_subtitle' => 'Learn about our journey, vision, and the values that drive us to create intelligent tools for the future.',
+    'team' => 'Team',
+    'team_description' => 'A diverse group of innovators, designers, and engineers passionate about creating technology that makes a difference.',
+    'excellence' => 'Excellence',
+    'excellence_description' => 'We strive for excellence in everything we do, from code quality to user experience and customer support.',
+    'our_story' => 'Our Story',
+    'our_story_description' => 'Zarnite was founded with a vision to make advanced AI accessible through beautiful, intuitive software that solves real problems for both individuals and businesses.',
+    'team_collaboration' => 'Our team of engineers, designers, and AI specialists work together to build tools that not only leverage cutting-edge technology but also provide exceptional user experiences.',
+    'tech_adapts_to_humans' => 'We believe that technology should adapt to humans, not the other way around. This philosophy guides everything we build, ensuring our products feel natural and intuitive while delivering powerful capabilities.',
+    'founded_year' => '2024',
+    'founded' => 'Founded',
+    'team_members_count' => '10+',
+    'team_members' => 'Team Members',
+    'products_in_development_count' => '2',
+    'products_in_development' => 'Products in Development',
+    'possibilities' => '∞',
+    'possibilities_description' => 'Possibilities',
+    'vision_pursuits' => 'We envision a world where AI-driven tools become trusted partners in both professional and personal pursuits, making complex tasks simpler and unlocking human potential.',
+    'key_features' => 'Key Features',
+    'continuous_innovation' => 'Continuous innovation at the intersection of AI and user experience',
+    'accessible_technology' => 'Making powerful technology accessible to everyone',
+    'empowering_users' => 'Empowering users to achieve more with less effort',
+    'mission_tools' => 'Our mission is to develop AI-powered tools that adapt to users\' needs, learn from their behaviors, and deliver value through thoughtful automation and intelligent assistance.',
+    'high_quality_products' => 'Building high-quality products that stand the test of time',
+    'delightful_experiences' => 'Creating delightful user experiences that people love',
+    'embracing_technologies' => 'Preparing for the future by embracing emerging technologies',
+    'partnership' => 'Partnership',
+    'microsoft_fund' => 'Proudly Supported by Microsoft Founders Fund',
+    'microsoft_fund_description' => 'We\'re honored to be backed by Microsoft Founders Fund, which validates our vision and provides us with the resources to build world-class AI-powered solutions.',
+    'our_approach' => 'Our Approach',
+    'approach_description' => 'We believe technology should be beautiful, intelligent, and accessible to everyone.',
+    'user_centric_design' => 'User-Centric Design',
+    'user_centric_design_description' => 'Every feature we build starts with understanding our users\' needs and challenges.',
+    'ai_integration' => 'AI Integration',
+    'ai_integration_description' => 'We seamlessly integrate AI capabilities to enhance productivity without complexity.',
+    'continuous_innovation_description' => 'We constantly evolve our products based on user feedback and emerging technologies.',
+    'join_our_journey' => 'Join Our Journey',
+    'join_our_journey_description' => 'Be part of our mission to transform productivity and creativity with AI. Join our early access program and help shape the future of our products.',
+    'team_image_alt' => 'Team Image',
+
+    // Keys from blogs.blade.php
+    'blogs_tag' => 'Our Blogs',
+    'blogs_title' => 'Zarnite Blogs',
+    'blogs_subtitle' => 'Insights, updates, and thought leadership on AI, productivity, and technology trends.',
+
+    // Keys from early-access.blade.php
+    'early_access_title' => 'Early Access',
+    'limited_early_access' => 'Limited Early Access',
+    'first_to_experience' => 'Be the First to Experience',
+    'early_access_subtitle' => 'Join our exclusive early access program and help shape the future of productivity software. Get priority access to Zarn and Reolyy before they launch to the public.',
+    'first_access' => 'First Access',
+    'first_access_description' => 'Be among the first to use our AI-powered tools before public release.',
+    'special_pricing' => 'Special Pricing',
+    'special_pricing_description' => 'Get exclusive discounts and special pricing on all our products.',
+    'direct_feedback' => 'Direct Feedback',
+    'direct_feedback_description' => 'Directly influence product development with your feedback and suggestions.',
+    'priority_support' => 'Priority Support',
+    'priority_support_description' => 'Get dedicated support and faster response times from our team.',
+    'exclusive_community' => 'Exclusive Community',
+    'exclusive_community_description' => 'Join our private community of early adopters and power users.',
+    'beta_features' => 'Beta Features',
+    'beta_features_description' => 'Access cutting-edge features and experiments before anyone else.',
+    'use_case' => 'Tell us about your use case',
+    'newsletter_subscription' => 'Keep me updated on product news and early access opportunities',
+    'terms_and_privacy' => 'I agree to the Terms of Service andPrivacy Policy *',
+
+    // Keys from products.blade.php
+    'products_title' => 'Products',
+    'products_subtitle' => 'Cutting-edge tools designed to enhance your productivity and creativity. Experience the future of software with our intelligent, beautiful applications.',
+    'product_alt' => 'Product',
+
+
+    // Keys from contact.blade.php
+    'contact_us_title' => 'Contact Us',
+    'contact_us_tag' => 'Contact Us',
+    'contact_zarnite' => 'Contact Zarnite',
+    'contact_subtitle' => 'Get in touch with our team for questions, support, or partnership inquiries.',
+    'contact_information' => 'Contact Information',
+    'contact_information_description' => 'We\'re here to help with any questions or feedback. Reach out to us using the contact form or through any of the methods below.',
 ];
