@@ -43,9 +43,8 @@
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
             <p class="text-muted mb-0">© 2024 Zarnite. All rights reserved.</p>
             <div class="d-flex gap-4 mt-3 mt-md-0">
-                <a href="#" class="text-muted text-decoration-none small">Privacy Policy</a>
-                <a href="#" class="text-muted text-decoration-none small">Terms of Service</a>
-            </div>
+                <a href="{{ route('home.privacy-policy') }}" class="text-muted text-decoration-none small">Privacy Policy</a>
+                <a href="{{ route('home.terms-of-service') }}" class="text-muted text-decoration-none small">Terms of Service</a>
         </div>
     </div>
 </footer>

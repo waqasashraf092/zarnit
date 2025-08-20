@@ -44,27 +44,27 @@
                                 <div>
                                     <h6 class="m-0 p-0">Follow Us</h6>
                                     <div class="d-flex gap-3">
-                                        <a href="https://www.instagram.com/zarn_ite?igsh=MWNndWdrbzdiaTVweA==" class="text-color-z" target="_blank">
+                                        <a href="{{ config('app.link_instagram') }}" class="text-color-z" target="_blank">
                                             <i class="bi bi-instagram"></i>
                                         </a>
 
-                                        <a href="https://www.linkedin.com/company/zarnite/" class="text-color-z" target="_blank">
+                                        <a href="{{ config('app.link_linkedin') }}" class="text-color-z" target="_blank">
                                             <i class="bi bi-linkedin"></i>
                                         </a>
 
-                                        {{--<a href="https://www.facebook.com/" class="text-color-z" target="_blank">
+                                        <a href="{{ config('app.link_facebook') }}" class="text-color-z" target="_blank">
                                             <i class="bi bi-facebook"></i>
-                                        </a>--}}
+                                        </a>
 
-                                        <a href="https://x.com/zarnite13887?t=q05nWxEPPS94vKu7iP_-xg&s=09" class="text-color-z" target="_blank">
+                                        <a href="{{ config('app.link_twitter') }}" class="text-color-z" target="_blank">
                                             <i class="bi bi-twitter-x"></i>
                                         </a>
 
-                                        {{--<a href="https://www.youtube.com/" class="text-color-z" target="_blank">
+                                        {{--<a href="{{ config('app.youtube') }}" class="text-color-z" target="_blank">
                                             <i class="bi bi-youtube"></i>
                                         </a>--}}
 
-                                        <a href="https://www.tiktok.com/@zarn_ite?_t=ZS-8yn8iZncxRI&_r=1" class="text-color-z" target="_blank">
+                                        <a href="{{ config('app.link_tiktok') }}" class="text-color-z" target="_blank">
                                             <i class="bi bi-tiktok"></i>
                                         </a>
                                     </div>

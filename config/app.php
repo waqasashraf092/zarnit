@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'link_facebook' => env('LINK_FACEBOOK'),
+    'link_instagram' => env('LINK_INSTAGRAM'),
+    'link_linkedin' => env('LINK_LINKEDIN'),
+    'link_twitter' => env('LINK_TWITTER'),
+    'link_tiktok' => env('LINK_TIKTOK'),
+    'link_youtube' => env('LINK_YOUTUBE'),
 
     /*
     |--------------------------------------------------------------------------
@@ -83,6 +89,13 @@ return [
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
     'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
+
+    'languages' => [
+        'en' => 'English',
+        'es' => 'Español',
+        'fr' => 'Français',
+        'zh' => '中文',
+    ],
 
     /*
     |--------------------------------------------------------------------------

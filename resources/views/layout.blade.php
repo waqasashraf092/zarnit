@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>@yield('title', 'Zarnite - AI-Powered Productivity Tools') - Zarnite</title>
-        <meta name="description" content="Zarnite is a forward-thinking software company crafting smart, beautiful tools that bridge technology and everyday productivity.">
+        <title>@yield('title', __('l.app_title')) - Zarnite</title>
+        <meta name="description" content="{{ __('l.app_desc') }}">
         <meta name="author" content="Zarnite">
 
         <link href="favicon.svg" rel="icon" type="image/svg+xml">

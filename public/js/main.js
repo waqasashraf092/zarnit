@@ -45,35 +45,6 @@ $(document).ready(function() {
         }
     });
 
-    // Add active class to current page nav item
-    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-    $('.navbar-nav .nav-link').each(function() {
-        const href = $(this).attr('href');
-        if (href === currentPage || (currentPage === '' && href === 'index.html')) {
-            $(this).addClass('active');
-        } else {
-            $(this).removeClass('active');
-        }
-    });
-
-    // Newsletter subscription
-    $('.input-group button[type="button"]').on('click', function() {
-        const email = $(this).siblings('input[type="email"]').val();
-        if (email && isValidEmail(email)) {
-            // Simulate subscription
-            alert('Thank you for subscribing! We\'ll keep you updated.');
-            $(this).siblings('input[type="email"]').val('');
-        } else {
-            alert('Please enter a valid email address.');
-        }
-    });
-
-    // Email validation
-    function isValidEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
     // Add fade-in animation to cards on scroll
     function animateOnScroll() {
         $('.card').each(function() {
@@ -107,21 +78,5 @@ $(document).ready(function() {
     // Add loading animation for images
     $('img').on('load', function() {
         $(this).addClass('fade-in-up');
-    });
-
-    // Handle contact form submission (if exists)
-    $('#contactForm').on('submit', function(e) {
-        e.preventDefault();
-        // Simulate form submission
-        alert('Thank you for your message! We\'ll get back to you soon.');
-        this.reset();
-    });
-
-    // Handle early access form submission (if exists)
-    $('#earlyAccessForm').on('submit', function(e) {
-        e.preventDefault();
-        // Simulate form submission
-        alert('Thank you for your interest! We\'ll notify you when early access is available.');
-        this.reset();
     });
 });

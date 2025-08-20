@@ -87,4 +87,14 @@ class HomeController extends Controller
 
         return redirect()->back()->with('success', 'Thank you! Your early access request has been submitted.');
     }
+
+    function privacyPolicy()
+    {
+        return view('home.privacy-policy');
+    }
+
+    function termsOfService()
+    {
+        return view('home.terms-of-service');
+    }
 }
