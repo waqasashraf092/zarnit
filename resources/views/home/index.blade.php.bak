@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', __('l.title'))
+@section('title', 'Zarnite - Modern AI Technology Company')
 
 @section('content')
     <!-- Hero Section -->
@@ -10,33 +10,33 @@
                 <div class="col-lg-6">
                     <div class="hero-content">
                         <h1 class="display-3 fw-bold lh-1 mb-4">
-                            {{ __('l.hero_title_part1') }}
-                            <span class="text-primary">{{ __('l.hero_title_part2') }}</span>
+                            Empowering creators, builders,
+                            <span class="text-primary">and businesses to reach new heights!</span>
                         </h1>
                         <p class="lead mb-4 text-muted">
-                            {{ __('l.hero_description') }}
+                            Zarnite is a forward-thinking software company crafting smart, beautiful tools that bridge technology and everyday productivity.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
                             <a href="{{ route('home.products') }}" class="btn btn-primary btn-lg align-content-center py-2">
-                                {{ __('l.explore_products') }}
+                                Explore Products
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>
-                            <a href="{{ route('home.early-access') }}" class="btn btn-outline-primary btn-lg py-2">{{ __('l.get_early_access') }}</a>
+                            <a href="{{ route('home.early-access') }}" class="btn btn-outline-primary btn-lg py-2">Get Early Access</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div style="position: relative; display: inline-block;">
-                        <img class="shadow" src="{{ asset('images/image_1.avif') }}" style="border-radius: 15px; width: 100%; display: block;" alt="{{ __('l.image_alt') }}" />
+                        <img class="shadow" src="{{ asset('images/image_1.avif') }}" style="border-radius: 15px; width: 100%; display: block;" alt="image" />
                         <div style="position: absolute; bottom: 25px; left: 25px; width: auto;  color: #fff;">
                             <div class="mb-2" style="font-size: 14px; background-color: hsl(42 91% 62%); border-radius: 20px; padding: 5px 15px; width: fit-content; color: black; ">
-                                {{ __('l.ai_powered_tools') }}
+                                AI-Powered Tools
                             </div>
                             <div class="mb-2" style="font-size: 1.2rem; line-height: 2rem; font-weight: 700">
-                                {{ __('l.experience_future_productivity') }}
+                                Experience the Future of Productivity
                             </div>
                             <div style="font-size: 14px;">
-                                {{ __('l.intelligent_automation_seamless') }}
+                                Intelligent automation and seamless user experiences
                             </div>
                         </div>
                     </div>
@@ -49,8 +49,8 @@
     <section class="bg-white" style="padding: 80px 0">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">{{ __('l.experience_future_productivity') }}</h2>
-                <p class="lead text-muted">{{ __('l.intelligent_automation_seamless') }}</p>
+                <h2 class="display-5 fw-bold mb-3">Experience the Future of Productivity</h2>
+                <p class="lead text-muted">Intelligent automation and seamless user experiences</p>
             </div>
 
             <div class="row g-4">
@@ -60,8 +60,8 @@
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                 <i class="bi bi-lightning-charge text-color-z fs-2"></i>
                             </div>
-                            <h4 class="card-title">{{ __('l.fast_performance') }}</h4>
-                            <p class="card-text text-muted">{{ __('l.optimized_software_workflow') }}</p>
+                            <h4 class="card-title">Fast Performance</h4>
+                            <p class="card-text text-muted">Optimized software that keeps your workflow swift and responsive.</p>
                         </div>
                     </div>
                 </div>
@@ -71,8 +71,8 @@
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                 <i class="bi bi-lightbulb text-color-z fs-2"></i>
                             </div>
-                            <h4 class="card-title">{{ __('l.smart_innovation') }}</h4>
-                            <p class="card-text text-muted">{{ __('l.ai_tools_learn_usage') }}</p>
+                            <h4 class="card-title">Smart Innovation</h4>
+                            <p class="card-text text-muted">AI-powered tools that learn from your usage patterns to improve over time.</p>
                         </div>
                     </div>
                 </div>
@@ -82,8 +82,8 @@
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                 <i class="bi bi-shield-check text-color-z fs-2"></i>
                             </div>
-                            <h4 class="card-title">{{ __('l.enterprise_security') }}</h4>
-                            <p class="card-text text-muted">{{ __('l.end_to_end_encryption') }}</p>
+                            <h4 class="card-title">Enterprise Security</h4>
+                            <p class="card-text text-muted">End-to-end encryption and robust security features to protect your data.</p>
                         </div>
                     </div>
                 </div>
@@ -95,8 +95,8 @@
     <section class="bg-light" style="padding: 80px 0">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">{{ __('l.why_choose_zarnite') }}</h2>
-                <p class="lead text-muted">{{ __('l.technology_bridges_gap') }}</p>
+                <h2 class="display-5 fw-bold mb-3">Why Choose Zarnite</h2>
+                <p class="lead text-muted">Our technology bridges the gap between complex AI capabilities and intuitive user experiences.</p>
             </div>
 
             <div class="row g-5">
@@ -106,8 +106,8 @@
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                 <i class="bi bi-bezier2 text-color-z fs-2"></i>
                             </div>
-                            <h4 class="mb-3">{{ __('l.intelligent_automation') }}</h4>
-                            <p class="text-muted m-0">{{ __('l.ai_driven_tools_adapt') }}</p>
+                            <h4 class="mb-3">Intelligent Automation</h4>
+                            <p class="text-muted m-0">AI-driven tools that learn and adapt to your workflow, saving you time and effort.</p>
                         </div>
                     </div>
                 </div>
@@ -117,8 +117,8 @@
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                 <i class="bi bi-brush text-color-z fs-2"></i>
                             </div>
-                            <h4 class="mb-3">{{ __('l.beautiful_design') }}</h4>
-                            <p class="text-muted m-0">{{ __('l.thoughtfully_crafted_interfaces') }}</p>
+                            <h4 class="mb-3">Beautiful Design</h4>
+                            <p class="text-muted m-0">Thoughtfully crafted interfaces that are both aesthetically pleasing and highly functional.</p>
                         </div>
                     </div>
                 </div>
@@ -129,8 +129,8 @@
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                 <i class="bi bi-shield-check text-color-z fs-2"></i>
                             </div>
-                            <h4 class="mb-3">{{ __('l.enterprise_security') }}</h4>
-                            <p class="text-muted m-0">{{ __('l.built_with_privacy_security') }}</p>
+                            <h4 class="mb-3">Enterprise Security</h4>
+                            <p class="text-muted m-0">Built with privacy and security at the core, ensuring your data remains protected.</p>
                         </div>
                     </div>
                 </div>
@@ -142,49 +142,49 @@
     <section class="bg-white" style="padding: 80px 0">
         <div class="container">
             <div class="text-center mb-5">
-                <span class="badge bg-primary mb-3">{{ __('l.our_products') }}</span>
-                <h2 class="display-5 fw-bold mb-3">{{ __('l.ai_powered_solutions') }}</h2>
-                <p class="lead text-muted">{{ __('l.cutting_edge_tools') }}</p>
+                <span class="badge bg-primary mb-3">Our Products</span>
+                <h2 class="display-5 fw-bold mb-3">AI-Powered Solutions</h2>
+                <p class="lead text-muted">Cutting-edge tools designed to enhance your productivity and creativity.</p>
             </div>
 
             <div class="row g-4">
                 <div class="col-lg-6">
                     <div class="card h-100 border-1 shadow-lg">
                         <div class="ratio ratio-16x9">
-                            <img src="{{ asset('images/image_2.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
+                            <img src="{{ asset('images/image_2.avif') }}" class="card-img-top object-fit-cover" alt="Zarn">
                         </div>
                         <div class="card-body p-4">
                             <div class="d-flex justify-content-between align-items-center mb-3">
-                                <h4 class="card-title mb-0">{{ __('l.zarn') }}</h4>
-                                <span class="badge bg-outline-primary">{{ __('l.coming_soon') }}</span>
+                                <h4 class="card-title mb-0">Zarn</h4>
+                                <span class="badge bg-outline-primary">Coming Soon</span>
                             </div>
-                            <p class="card-text text-muted mb-3">{{ __('l.zarn_description') }}</p>
+                            <p class="card-text text-muted mb-3">An AI productivity suite that streamlines your workflow, automates repetitive tasks, and helps you focus on what truly matters.</p>
                             <div class="mb-3">
-                                <span class="badge bg-secondary me-2">{{ __('l.productivity') }}</span>
-                                <span class="badge bg-secondary me-2">{{ __('l.ai_assistant') }}</span>
-                                <span class="badge bg-secondary">{{ __('l.automation') }}</span>
+                                <span class="badge bg-secondary me-2">Productivity</span>
+                                <span class="badge bg-secondary me-2">AI Assistant</span>
+                                <span class="badge bg-secondary">Automation</span>
                             </div>
-                            <a href="{{ route('home.early-access') }}" class="btn btn-primary w-100">{{ __('l.notify_me') }}</a>
+                            <a href="{{ route('home.early-access') }}" class="btn btn-primary w-100">Notify Me</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="card h-100 border-1 shadow-lg">
                         <div class="ratio ratio-16x9">
-                            <img src="{{ asset('images/image_3.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.reolyy_alt') }}">
+                            <img src="{{ asset('images/image_3.avif') }}" class="card-img-top object-fit-cover" alt="Reolyy">
                         </div>
                         <div class="card-body p-4">
                             <div class="d-flex justify-content-between align-items-center mb-3">
-                                <h4 class="card-title mb-0">{{ __('l.reolyy') }}</h4>
-                                <span class="badge bg-outline-primary">{{ __('l.coming_soon') }}</span>
+                                <h4 class="card-title mb-0">Reolyy</h4>
+                                <span class="badge bg-outline-primary">Coming Soon</span>
                             </div>
-                            <p class="card-text text-muted mb-3">{{ __('l.reolyy_description') }}</p>
+                            <p class="card-text text-muted mb-3">An AI-enhanced video editing tool that transforms your raw footage into professional-quality content with minimal effort.</p>
                             <div class="mb-3">
-                                <span class="badge bg-secondary me-2">{{ __('l.video_editing') }}</span>
-                                <span class="badge bg-secondary me-2">{{ __('l.ai_enhancement') }}</span>
-                                <span class="badge bg-secondary">{{ __('l.creative_tools') }}</span>
+                                <span class="badge bg-secondary me-2">Video Editing</span>
+                                <span class="badge bg-secondary me-2">AI Enhancement</span>
+                                <span class="badge bg-secondary">Creative Tools</span>
                             </div>
-                            <a href="{{ route('home.early-access') }}" class="btn btn-primary w-100">{{ __('l.notify_me') }}</a>
+                            <a href="{{ route('home.early-access') }}" class="btn btn-primary w-100">Notify Me</a>
                         </div>
                     </div>
                 </div>
@@ -196,29 +196,29 @@
     <section class="bg-light" style="padding: 80px 0">
         <div class="container">
             <div class="text-center mb-5">
-                <span class="badge bg-primary mb-3">{{ __('l.about_us') }}</span>
-                <h2 class="display-5 fw-bold mb-3">{{ __('l.our_vision_mission') }}</h2>
-                <p class="lead text-muted">{{ __('l.zarnite_modern_tech_company') }}</p>
+                <span class="badge bg-primary mb-3">About Us</span>
+                <h2 class="display-5 fw-bold mb-3">Our Vision & Mission</h2>
+                <p class="lead text-muted">Zarnite is a modern technology company creating AI-driven software tools for individuals and businesses.</p>
             </div>
             <div class="row g-4 mt-2">
                 <div class="col-lg-6">
                     <div class="pe-lg-5">
-                        <h2 class="display-6 fw-bold mb-1">{{ __('l.about_us') }}</h2>
+                        <h2 class="display-6 fw-bold mb-1">About Us</h2>
                         <p class="lead text-muted mb-4">
-                            {{ __('l.about_us_description') }}
+                            Zarnite is a modern technology company creating AI-driven software tools for individuals and businesses. With a focus on intelligent automation, seamless user experiences, and cutting-edge design, Zarnite builds scalable digital solutions that empower users to work smarter, move faster, and achieve more.
                         </p>
 
-                        <h4 class="fw-bold mb-1">{{ __('l.vision') }}</h4>
+                        <h4 class="fw-bold mb-1">Vision</h4>
                         <p class="lead text-muted mb-4">
-                            {{ __('l.vision_description') }}
+                            To be a global leader in intelligent software, empowering the next generation of creators, builders, and businesses to reach new heights.
                         </p>
 
-                        <h4 class="fw-bold mb-1">{{ __('l.mission') }}</h4>
+                        <h4 class="fw-bold mb-1">Mission</h4>
                         <p class="lead text-muted mb-4">
-                            {{ __('l.mission_description') }}
+                            To continually push the boundaries of what software can do—delivering tools that are fast, intelligent, and built for the future.
                         </p>
 
-                        <span class="badge bg-outline-primary text-color-z">{{ __('l.proudly_supported') }}</span>
+                        <span class="badge bg-outline-primary text-color-z">Proudly supported by Microsoft Founders FundComing Soon</span>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -232,23 +232,23 @@
     <section class="bg-white" style="padding: 80px 0">
         <div class="container">
             <div class="text-center mb-5">
-                <span class="badge bg-primary mb-3">{{ __('l.our_blog') }}</span>
-                <h2 class="display-5 fw-bold mb-3">{{ __('l.latest_insights') }}</h2>
-                <p class="lead text-muted">{{ __('l.explore_latest_thoughts') }}</p>
+                <span class="badge bg-primary mb-3">Our Blog</span>
+                <h2 class="display-5 fw-bold mb-3">Latest Insights</h2>
+                <p class="lead text-muted">Explore our latest thoughts on technology, AI, and the future of productivity.</p>
             </div>
 
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="ratio ratio-16x9">
-                            <img src="{{ asset('images/image_4.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
+                            <img src="{{ asset('images/image_4.avif') }}" class="card-img-top object-fit-cover" alt="Zarn">
                         </div>
                         <div class="card-body p-4">
-                            <div class="text-muted small mb-3">{{ __('l.blog_date_1') }}</div>
-                            <h5 class="card-title">{{ __('l.blog_title_1') }}</h5>
-                            <p class="card-text text-muted">{{ __('l.blog_description_1') }}</p>
+                            <div class="text-muted small mb-3">Mar 15, 2025 • 5 min read</div>
+                            <h5 class="card-title">The Future of AI in Everyday Software</h5>
+                            <p class="card-text text-muted">Intelligent automation is reshaping tech interactions and boosting productivity.</p>
                             <a href="{{ route('blogs.show', 1) }}" class="btn btn-link p-0 text-primary">
-                                {{ __('l.read_more') }}
+                                Read More
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>
                         </div>
@@ -257,14 +257,14 @@
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="ratio ratio-16x9">
-                            <img src="{{ asset('images/image_5.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
+                            <img src="{{ asset('images/image_5.avif') }}" class="card-img-top object-fit-cover" alt="Zarn">
                         </div>
                         <div class="card-body p-4">
-                            <div class="text-muted small mb-3">{{ __('l.blog_date_2') }}</div>
-                            <h5 class="card-title">{{ __('l.blog_title_2') }}</h5>
-                            <p class="card-text text-muted">{{ __('l.blog_description_2') }}</p>
+                            <div class="text-muted small mb-3">Mar 8, 2025 • 4 min read</div>
+                            <h5 class="card-title">Designing for the Next Generation</h5>
+                            <p class="card-text text-muted">The principles behind creating intuitive, beautiful interfaces that stand the test of time.</p>
                             <a href="{{ route('blogs.show', 2) }}" class="btn btn-link p-0 text-primary">
-                                {{ __('l.read_more') }}
+                                Read More
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>
                         </div>
@@ -273,14 +273,14 @@
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="ratio ratio-16x9">
-                            <img src="{{ asset('images/image_6.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
+                            <img src="{{ asset('images/image_6.avif') }}" class="card-img-top object-fit-cover" alt="Zarn">
                         </div>
                         <div class="card-body p-4">
-                            <div class="text-muted small mb-3">{{ __('l.blog_date_3') }}</div>
-                            <h5 class="card-title">{{ __('l.blog_title_3') }}</h5>
-                            <p class="card-text text-muted">{{ __('l.blog_description_3') }}</p>
+                            <div class="text-muted small mb-3">Mar 1, 2025 • 6 min read</div>
+                            <h5 class="card-title">Building Scalable AI Solutions</h5>
+                            <p class="card-text text-muted">How we approach creating flexible, powerful AI systems that grow with your needs.</p>
                             <a href="{{ route('blogs.show', 3) }}" class="btn btn-link p-0 text-primary">
-                                {{ __('l.read_more') }}
+                                Read More
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>
                         </div>
@@ -289,7 +289,7 @@
             </div>
 
             <div class="text-center mt-5">
-                <a href="{{ route('blogs.index') }}" class="btn btn-outline-primary">{{ __('l.view_all_articles') }}</a>
+                <a href="{{ route('blogs.index') }}" class="btn btn-outline-primary">View All Articles</a>
             </div>
         </div>
     </section>
@@ -300,26 +300,26 @@
             <div class="row g-4 mt-2">
                 <div class="col-lg-6">
                     <div class="pe-lg-5">
-                        <h2 class="display-6 fw-bold mb-3">{{ __('l.join_premium_program') }}</h2>
+                        <h2 class="display-6 fw-bold mb-3">Join Our Premium Program</h2>
                         <p class="lead text-muted mb-4">
-                            {{ __('l.be_among_first') }}
+                            Be among the first to experience our upcoming products. Early supporters get exclusive benefits and lifetime priority access to all Zarnite products.
                         </p>
                         <ul class="list-unstyled">
                             <li class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check-circle-fill fs-4 me-3" style="color:#29C763"></i>
-                                <span class="text-muted">{{ __('l.first_access_launches') }}</span>
+                                <span class="text-muted">First access to all new product launches</span>
                             </li>
                             <li class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check-circle-fill fs-4 me-3" style="color:#29C763"></i>
-                                <span class="text-muted">{{ __('l.exclusive_premium_features') }}</span>
+                                <span class="text-muted">Exclusive premium features and priority support</span>
                             </li>
                             <li class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check-circle-fill fs-4 me-3" style="color:#29C763"></i>
-                                <span class="text-muted">{{ __('l.influence_product_development') }}</span>
+                                <span class="text-muted">Influence product development with direct feedback</span>
                             </li>
                             <li class="d-flex align-items-center mb-2">
                                 <i class="bi bi-check-circle-fill fs-4 me-3" style="color:#29C763"></i>
-                                <span class="text-muted">{{ __('l.lock_in_pricing') }}</span>
+                                <span class="text-muted">Lock in early supporter pricing ($25 one-time fee)</span>
                             </li>
                         </ul>
                     </div>
@@ -327,48 +327,48 @@
                 <div class="col-lg-6">
                     <div class="card bg-white">
                         <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">{{ __('l.get_early_access') }}</h4>
+                            <h4 class="fw-bold mb-4">Get Early Access</h4>
                             <div id="formMessage" class="mt-3"></div>
                             <form id="earlyAccessForm" action="{{ route('home.early-access-save') }}" method="post">
                                 @csrf
                                 <div class="row g-3">
                                     <div class="col-md-6">
-                                        <label for="firstName" class="form-label">{{ __('l.first_name') }}</label>
+                                        <label for="firstName" class="form-label">First Name *</label>
                                         <input type="text" class="form-control" id="firstName" name="first_name" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="lastName" class="form-label">{{ __('l.last_name') }}</label>
+                                        <label for="lastName" class="form-label">Last Name *</label>
                                         <input type="text" class="form-control" id="lastName" name="last_name" required>
                                     </div>
                                     <div class="col-12">
-                                        <label for="email" class="form-label">{{ __('l.email_address') }}</label>
+                                        <label for="email" class="form-label">Email Address *</label>
                                         <input type="email" class="form-control" id="email" name="email" required>
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="company" class="form-label">{{ __('l.company') }}</label>
+                                        <label for="company" class="form-label">Company</label>
                                         <input type="text" class="form-control" id="company" name="company">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="role" class="form-label">{{ __('l.role') }}</label>
+                                        <label for="role" class="form-label">Role</label>
                                         <select class="form-select" id="role" name="role">
                                             <option value=""></option>
-                                            <option value="entrepreneur">{{ __('l.entrepreneur') }}</option>
-                                            <option value="developer">{{ __('l.developer') }}</option>
-                                            <option value="designer">{{ __('l.designer') }}</option>
-                                            <option value="manager">{{ __('l.manager') }}</option>
-                                            <option value="student">{{ __('l.student') }}</option>
-                                            <option value="other">{{ __('l.other') }}</option>
+                                            <option value="entrepreneur">Entrepreneur</option>
+                                            <option value="developer">Developer</option>
+                                            <option value="designer">Designer</option>
+                                            <option value="manager">Manager</option>
+                                            <option value="student">Student</option>
+                                            <option value="other">Other</option>
                                         </select>
                                     </div>
                                     <div class="col-12">
-                                        <label for="interests" class="form-label">{{ __('l.which_products_interest') }}</label>
+                                        <label for="interests" class="form-label">Which products interest you? *</label>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="zarn" id="zarn" name="interests[]">
                                                     <label class="form-check-label" for="zarn">
-                                                        <strong>{{ __('l.zarn') }}</strong>
-                                                        - {{ __('l.ai_productivity_suite') }}
+                                                        <strong>Zarn</strong>
+                                                        - AI Productivity Suite
                                                     </label>
                                                 </div>
                                             </div>
@@ -376,8 +376,8 @@
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" value="reolyy" id="reolyy" name="interests[]">
                                                     <label class="form-check-label" for="reolyy">
-                                                        <strong>{{ __('l.reolyy') }}</strong>
-                                                        - {{ __('l.ai_video_editing') }}
+                                                        <strong>Reolyy</strong>
+                                                        - AI Video Editing
                                                     </label>
                                                 </div>
                                             </div>
@@ -386,7 +386,7 @@
                                     <div class="col-12">
                                         <button type="submit" class="btn btn-primary btn-lg w-100">
                                             <i class="bi bi-rocket-takeoff me-2"></i>
-                                            {{ __('l.secure_my_early_access') }}
+                                            Secure My Early Access
                                         </button>
                                     </div>
                                 </div>
@@ -404,9 +404,9 @@
             <div class="row g-4 mt-2">
                 <div class="col-lg-6">
                     <div class="pe-lg-5">
-                        <h2 class="display-6 fw-bold mb-3">{{ __('l.get_in_touch') }}</h2>
+                        <h2 class="display-6 fw-bold mb-3">Get In Touch</h2>
                         <p class="lead text-muted mb-4">
-                            {{ __('l.have_questions') }}
+                            Have questions about our products or services? We'd love to hear from you. Fill out the form and our team will get back to you as soon as possible.
                         </p>
                         <ul class="list-unstyled">
                             <li class="d-flex align-items-center mb-3">
@@ -414,7 +414,7 @@
                                     <i class="bi bi-envelope-at text-color-z fs-4"></i>
                                 </div>
                                 <div>
-                                    <h6 class="m-0 p-0">{{ __('l.email_us') }}</h6>
+                                    <h6 class="m-0 p-0">Email Us</h6>
                                     <span class="text-muted">support@zanite.inc</span>
                                 </div>
                             </li>
@@ -423,7 +423,7 @@
                                     <i class="bi bi-geo-alt text-color-z fs-4"></i>
                                 </div>
                                 <div>
-                                    <h6 class="m-0 p-0">{{ __('l.our_address') }}</h6>
+                                    <h6 class="m-0 p-0">Our Address</h6>
                                     <span class="text-muted">1111B S Governors Ave STE 21630 Dover, DE, 19904 US</span>
                                 </div>
                             </li>
@@ -432,29 +432,29 @@
                                     <i class="bi bi-share text-color-z fs-4"></i>
                                 </div>
                                 <div>
-                                    <h6 class="m-0 p-0">{{ __('l.follow_us') }}</h6>
+                                    <h6 class="m-0 p-0">Follow Us</h6>
                                     <div class="d-flex gap-3">
-                                        <a href="{{ config('app.link_instagram') }}" class="text-color-z" target="_blank">
+                                        <a href="https://www.instagram.com/zarn_ite?igsh=MWNndWdrbzdiaTVweA==" class="text-color-z" target="_blank">
                                             <i class="bi bi-instagram"></i>
                                         </a>
 
-                                        <a href="{{ config('app.link_linkedin') }}" class="text-color-z" target="_blank">
+                                        <a href="https://www.linkedin.com/company/zarnite/" class="text-color-z" target="_blank">
                                             <i class="bi bi-linkedin"></i>
                                         </a>
 
-                                        <a href="{{ config('app.link_facebook') }}" class="text-color-z" target="_blank">
+                                        {{--<a href="https://www.facebook.com/" class="text-color-z" target="_blank">
                                             <i class="bi bi-facebook"></i>
-                                        </a>
+                                        </a>--}}
 
-                                        <a href="{{ config('app.link_twitter') }}" class="text-color-z" target="_blank">
+                                        <a href="https://x.com/zarnite13887?t=q05nWxEPPS94vKu7iP_-xg&s=09" class="text-color-z" target="_blank">
                                             <i class="bi bi-twitter-x"></i>
                                         </a>
 
-                                        {{--<a href="{{ config('app.youtube') }}" class="text-color-z" target="_blank">
+                                        {{--<a href="https://www.youtube.com/" class="text-color-z" target="_blank">
                                             <i class="bi bi-youtube"></i>
                                         </a>--}}
 
-                                        <a href="{{ config('app.link_tiktok') }}" class="text-color-z" target="_blank">
+                                        <a href="https://www.tiktok.com/@zarn_ite?_t=ZS-8yn8iZncxRI&_r=1" class="text-color-z" target="_blank">
                                             <i class="bi bi-tiktok"></i>
                                         </a>
                                     </div>
@@ -466,33 +466,33 @@
                 <div class="col-lg-6">
                     <div class="card bg-light">
                         <div class="card-body p-4">
-                            <h4 class="fw-bold mb-4">{{ __('l.send_message') }}</h4>
+                            <h4 class="fw-bold mb-4">Send a Message</h4>
                             <form id="earlyAccessForm">
                                 <div class="row g-3">
                                     <div class="col-md-6">
-                                        <label for="firstName" class="form-label">{{ __('l.first_name') }}</label>
+                                        <label for="firstName" class="form-label">First Name *</label>
                                         <input type="text" class="form-control form-control" id="firstName" required="">
                                     </div>
                                     <div class="col-md-6">
-                                        <label for="lastName" class="form-label">{{ __('l.last_name') }}</label>
+                                        <label for="lastName" class="form-label">Last Name *</label>
                                         <input type="text" class="form-control form-control" id="lastName" required="">
                                     </div>
                                     <div class="col-12">
-                                        <label for="email" class="form-label">{{ __('l.email_address') }}</label>
+                                        <label for="email" class="form-label">Email Address *</label>
                                         <input type="email" class="form-control form-control" id="email" required="">
                                     </div>
                                     <div class="col-12">
-                                        <label for="company" class="form-label">{{ __('l.subject') }}</label>
+                                        <label for="company" class="form-label">Subject *</label>
                                         <input type="text" class="form-control form-control" id="company">
                                     </div>
                                     <div class="col-12">
-                                        <label for="useCase" class="form-label">{{ __('l.message') }}</label>
+                                        <label for="useCase" class="form-label">Message *</label>
                                         <textarea class="form-control" id="useCase" rows="4"></textarea>
                                     </div>
                                     <div class="col-12">
                                         <button type="submit" class="btn btn-primary btn-lg w-100">
                                             <i class="bi bi-send me-2"></i>
-                                            {{ __('l.send_message') }}
+                                            Send Message
                                         </button>
                                     </div>
                                 </div>
@@ -508,16 +508,16 @@
     <section class="bg-light" style="padding: 80px 0">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="display-5 fw-bold mb-3">{{ __('l.stay_updated') }}</h2>
-                <p class="lead text-muted">{{ __('l.subscribe_newsletter') }}</p>
+                <h2 class="display-5 fw-bold mb-3">Stay Updated</h2>
+                <p class="lead text-muted">Subscribe to our newsletter for the latest news, product updates, and exclusive content.</p>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <div class="input-group">
-                        <input type="email" class="form-control" placeholder="{{ __('l.enter_your_email') }}">
-                        <button class="btn btn-primary" type="button">{{ __('l.subscribe') }}</button>
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-primary" type="button">Subscribe</button>
                     </div>
-                    <p class="small text-muted mt-2">{{ __('l.respect_privacy') }}</p>
+                    <p class="small text-muted mt-2">We respect your privacy. Unsubscribe at any time.</p>
                 </div>
             </div>
         </div>
@@ -538,10 +538,10 @@
                     type: 'POST',
                     data: form.serialize(),
                     beforeSend: function () {
-                        $('#formMessage').html('<div class="alert alert-info">@lang('l.submitting')</div>');
+                        $('#formMessage').html('<div class="alert alert-info">Submitting...</div>');
                     },
                     success: function (response) {
-                        $('#formMessage').html('<div class="alert alert-success">@lang('l.thank_you_request_submitted')</div>');
+                        $('#formMessage').html('<div class="alert alert-success">Thank you! Your early access request has been submitted.</div>');
                         form.trigger('reset');
                     },
                     error: function (xhr) {
@@ -555,7 +555,7 @@
                             errorHtml += '</ul></div>';
                             $('#formMessage').html(errorHtml);
                         } else {
-                            $('#formMessage').html('<div class="alert alert-danger">@lang('l.something_went_wrong')</div>');
+                            $('#formMessage').html('<div class="alert alert-danger">Something went wrong. Please try again.</div>');
                         }
                     }
                 });
