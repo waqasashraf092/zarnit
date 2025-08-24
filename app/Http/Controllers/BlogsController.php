@@ -6,11 +6,9 @@ use Illuminate\Http\Request;
 
 class BlogsController extends Controller
 {
-    private $blogs;
-
-    function __construct()
+    static function getBlogs()
     {
-        $this->blogs = [
+        return [
             [
                 'id' => '1',
                 'title' => 'The Future of AI in Everyday Software',
@@ -70,13 +68,13 @@ class BlogsController extends Controller
 
     public function index()
     {
-        $blogs = $this->blogs;
+        $blogs = self::getBlogs();
         return view('blogs.index', compact('blogs'));
     }
 
     public function show($id)
     {
-        $blog = collect($this->blogs)->where('id', $id)->first();
+        $blog = collect(self::getBlogs())->where('id', $id)->first();
         return view('blogs.show', compact('blog'));
     }
 

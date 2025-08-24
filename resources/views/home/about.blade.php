@@ -11,7 +11,7 @@
 
     <!-- Values Section -->
     <section class="py-5 bg-light">
-        <div classEliot;container py-5">
+        <div class="container py-5">
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6">
                     <div class="card h-100 text-center p-4 border-0 shadow-lg bg-white">
@@ -117,10 +117,10 @@
     <!-- Mission Section -->
     <section class="py-5 bg-light">
         <div class="container my-4">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="ps-lg-5">
-                        <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="d-flex gap-3 mb-3">
                             <h2 class="display-6 fw-bold mb-0">{{ __('l.vision') }}</h2>
                         </div>
                         <p class="lead text-muted mb-4">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="ps-lg-5">
-                        <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="d-flex gap-3 mb-3">
                             <h2 class="display-6 fw-bold mb-0">{{ __('l.mission') }}</h2>
                         </div>
                         <p class="lead text-muted mb-4">

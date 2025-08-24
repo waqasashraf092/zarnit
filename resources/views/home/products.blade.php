@@ -13,14 +13,14 @@
         <section class="py-5 {{ $loop->odd ? 'bg-light' : 'bg-white' }}">
             <div class="container my-4">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="col-lg-6 mb-4 mb-lg-0 {{ $loop->even ? 'order-lg-2' : 'order-lg-1' }}">
                         <div class="card border-0 shadow">
                             <div class="ratio ratio-16x9">
                                 <img src="{{ $p['image'] }}" class="card-img object-fit-cover" alt="{{ __('l.product_alt') }}">
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 {{ $loop->even ? 'order-lg-1' : 'order-lg-2' }}">
                         <div class="ps-lg-5">
                             <div class="d-flex align-items-center gap-3 mb-3">
                                 <h2 class="display-6 fw-bold mb-0">{{ $p['name'] }}</h2>

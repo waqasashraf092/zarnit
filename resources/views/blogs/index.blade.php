@@ -14,7 +14,7 @@
         <div class="container py-3">
             <div class="card border-0 shadow-lg mb-5 bg-white">
                 <div class="row g-0">
-                    <div class="col-md-6 py-5 ps-5">
+                    <div class="col-md-6 py-md-5 ps-md-5">
                         <div class="ratio ratio-16x9">
                             <img src="{{ asset('images/image_9.jpg') }}" class="card-img object-fit-cover h-100" alt="Featured Article">
                         </div>

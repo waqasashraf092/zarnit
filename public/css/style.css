@@ -1,5 +1,6 @@
 :root {
     --bs-primary-z: #FBA834;
+    --bs-primary-z-rgb: 251, 168, 52;
     --bs-primary-rgb: 251, 168, 52;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
@@ -392,4 +393,21 @@ footer {
     color: var(--text-color) !important;
     background-color: var(--bs-primary-z) !important;
     border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+}
+
+.dropdown-item.active, .list-group-item.active{
+    background-color: var(--bs-primary-z) !important;
+    border-color: var(--bs-primary-z) !important;
+}
+
+.display-4 {
+    font-size: 2.0rem !important;
+}
+
+.display-5 {
+    font-size: 1.8rem !important;
+}
+
+.display-6 {
+    font-size: 1.5rem !important;
 }

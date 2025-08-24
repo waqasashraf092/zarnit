@@ -20,7 +20,7 @@
                         </p>
                         <ul class="list-unstyled">
                             <li class="d-flex align-items-center mb-3">
-                                <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-1 d-inline-flex me-3" style="width:44px; height: 44px;">
+                                <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-1 d-inline-flex me-3" style="min-width:44px;width: 44px;height: 44px;">
                                     <i class="bi bi-envelope-at text-color-z fs-4"></i>
                                 </div>
                                 <div>
@@ -29,7 +29,7 @@
                                 </div>
                             </li>
                             <li class="d-flex align-items-center mb-3">
-                                <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-1 d-inline-flex me-3" style="width:44px; height: 44px;">
+                                <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-1 d-inline-flex me-3" style="min-width:44px;width: 44px;height: 44px;">
                                     <i class="bi bi-geo-alt text-color-z fs-4"></i>
                                 </div>
                                 <div>
@@ -38,34 +38,34 @@
                                 </div>
                             </li>
                             <li class="d-flex align-items-center mb-3">
-                                <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-1 d-inline-flex me-3" style="width:44px; height: 44px;">
+                                <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-1 d-inline-flex me-3" style="min-width:44px; width: 44px; height: 44px;">
                                     <i class="bi bi-share text-color-z fs-4"></i>
                                 </div>
                                 <div>
                                     <h6 class="m-0 p-0">{{ __('l.follow_us') }}</h6>
                                     <div class="d-flex gap-3">
                                         <a href="{{ config('app.link_instagram') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-instagram"></i>
+                                            <i class="bi bi-instagram" style="font-size: 22px"></i>
                                         </a>
 
                                         <a href="{{ config('app.link_linkedin') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-linkedin"></i>
+                                            <i class="bi bi-linkedin" style="font-size: 22px"></i>
                                         </a>
 
                                         <a href="{{ config('app.link_facebook') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-facebook"></i>
+                                            <i class="bi bi-facebook" style="font-size: 22px"></i>
                                         </a>
 
                                         <a href="{{ config('app.link_twitter') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-twitter-x"></i>
+                                            <i class="bi bi-twitter-x" style="font-size: 22px"></i>
                                         </a>
 
                                         {{--<a href="{{ config('app.youtube') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-youtube"></i>
+                                            <i class="bi bi-youtube" style="font-size: 22px"></i>
                                         </a>--}}
 
                                         <a href="{{ config('app.link_tiktok') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-tiktok"></i>
+                                            <i class="bi bi-tiktok" style="font-size: 22px"></i>
                                         </a>
                                     </div>
                                 </div>

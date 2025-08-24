@@ -6,8 +6,8 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
-            <div class="row align-items-center g-5">
-                <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="hero-content">
                         <h1 class="display-3 fw-bold lh-1 mb-4">
                             {{ __('l.hero_title_part1') }}
@@ -53,8 +53,8 @@
                 <p class="lead text-muted">{{ __('l.intelligent_automation_seamless') }}</p>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                     <div class="card h-100 text-center p-4 border-0 shadow-lg bg-light">
                         <div class="card-body">
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                     <div class="card h-100 text-center p-4 border-0 shadow-lg bg-light">
                         <div class="card-body">
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-12">
                     <div class="card h-100 text-center p-4 border-0 shadow-lg bg-light">
                         <div class="card-body">
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
@@ -99,8 +99,8 @@
                 <p class="lead text-muted">{{ __('l.technology_bridges_gap') }}</p>
             </div>
 
-            <div class="row g-5">
-                <div class="col-md-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                     <div class="card bg-white">
                         <div class="card-body">
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                     <div class="card bg-white">
                         <div class="card-body">
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
@@ -122,8 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-
+                <div class="col-lg-4 col-md-12">
                     <div class="card bg-white">
                         <div class="card-body">
                             <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
@@ -147,8 +146,8 @@
                 <p class="lead text-muted">{{ __('l.cutting_edge_tools') }}</p>
             </div>
 
-            <div class="row g-4">
-                <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="card h-100 border-1 shadow-lg">
                         <div class="ratio ratio-16x9">
                             <img src="{{ asset('images/image_2.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
@@ -200,8 +199,8 @@
                 <h2 class="display-5 fw-bold mb-3">{{ __('l.our_vision_mission') }}</h2>
                 <p class="lead text-muted">{{ __('l.zarnite_modern_tech_company') }}</p>
             </div>
-            <div class="row g-4 mt-2">
-                <div class="col-lg-6">
+            <div class="row mt-2">
+                <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="pe-lg-5">
                         <h2 class="display-6 fw-bold mb-1">{{ __('l.about_us') }}</h2>
                         <p class="lead text-muted mb-4">
@@ -221,7 +220,7 @@
                         <span class="badge bg-outline-primary text-color-z">{{ __('l.proudly_supported') }}</span>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 text-center">
                     <img src="{{ asset('images/image_7.avif') }}" class="shadow-lg" style="width: 90%; border-radius: 15px" />
                 </div>
             </div>
@@ -237,8 +236,8 @@
                 <p class="lead text-muted">{{ __('l.explore_latest_thoughts') }}</p>
             </div>
 
-            <div class="row g-4">
-                <div class="col-md-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-5 mb-lg-0">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="ratio ratio-16x9">
                             <img src="{{ asset('images/image_4.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
@@ -254,7 +253,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="ratio ratio-16x9">
                             <img src="{{ asset('images/image_5.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
@@ -270,7 +269,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-6">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="ratio ratio-16x9">
                             <img src="{{ asset('images/image_6.avif') }}" class="card-img-top object-fit-cover" alt="{{ __('l.zarn_alt') }}">
@@ -295,10 +294,10 @@
     </section>
 
     <!-- Early Access Section -->
-    <section class="bg-light" style="padding: 80px 0">
+    <section class="" style="padding: 80px 0; background-color: rgba(253,229,151,0.3);">
         <div class="container">
-            <div class="row g-4 mt-2">
-                <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-6 mb-3 mb-lg-0">
                     <div class="pe-lg-5">
                         <h2 class="display-6 fw-bold mb-3">{{ __('l.join_premium_program') }}</h2>
                         <p class="lead text-muted mb-4">
@@ -435,27 +434,27 @@
                                     <h6 class="m-0 p-0">{{ __('l.follow_us') }}</h6>
                                     <div class="d-flex gap-3">
                                         <a href="{{ config('app.link_instagram') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-instagram"></i>
+                                            <i class="bi bi-instagram" style="font-size: 22px"></i>
                                         </a>
 
                                         <a href="{{ config('app.link_linkedin') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-linkedin"></i>
+                                            <i class="bi bi-linkedin" style="font-size: 22px"></i>
                                         </a>
 
                                         <a href="{{ config('app.link_facebook') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-facebook"></i>
+                                            <i class="bi bi-facebook" style="font-size: 22px"></i>
                                         </a>
 
                                         <a href="{{ config('app.link_twitter') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-twitter-x"></i>
+                                            <i class="bi bi-twitter-x" style="font-size: 22px"></i>
                                         </a>
 
                                         {{--<a href="{{ config('app.youtube') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-youtube"></i>
+                                            <i class="bi bi-youtube" style="font-size: 22px"></i>
                                         </a>--}}
 
                                         <a href="{{ config('app.link_tiktok') }}" class="text-color-z" target="_blank">
-                                            <i class="bi bi-tiktok"></i>
+                                            <i class="bi bi-tiktok" style="font-size: 22px"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -530,19 +529,19 @@
                 <span class="badge bg-outline-primary mb-3">{{ __('l.partnership') }}</span>
                 <h2 class="display-6 fw-bold mb-5">Zarnite {{ __('l.partnership') }}</h2>
                 <div class="row mt-3">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-center" style="min-height: 155px">
                         <a href="https://elevenlabs.io/text-to-speech" class="theme-icon-light">
-                            <img src="https://eleven-public-cdn.elevenlabs.io/payloadcms/pwsc4vchsqt-ElevenLabsGrants.webp" alt="Text to Speech" style="width:250px; margin-top: 40px">
+                            <img src="https://eleven-public-cdn.elevenlabs.io/payloadcms/pwsc4vchsqt-ElevenLabsGrants.webp" alt="Text to Speech" style="width:250px;">
                         </a>
                         <a href="https://elevenlabs.io/text-to-speech" class="theme-icon-dark d-none">
-                            <img src="https://eleven-public-cdn.elevenlabs.io/payloadcms/cy7rxce8uki-IIElevenLabsGrants%201.webp" alt="Text to Speech" style="width:250px; margin-top: 40px">
+                            <img src="https://eleven-public-cdn.elevenlabs.io/payloadcms/cy7rxce8uki-IIElevenLabsGrants%201.webp" alt="Text to Speech" style="width:250px;">
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-center" style="min-height: 155px">
                         <img src="{{ asset('images/microsoft_light.png') }}" style="width: 370px; margin-top: -20px;" class="theme-icon-light" />
                         <img src="{{ asset('images/microsoft_dark.png') }}" style="width: 370px; margin-top: -20px;" class="theme-icon-dark d-none" />
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-12 d-flex justify-content-center align-items-center" style="min-height: 155px">
                         <div class="d-flex justify-content-center align-items-center gap-3">
                             <div>
                                 <img src="{{ asset('images/nvidia-light.svg') }}" style="width: 150px" class="theme-icon-light" />
@@ -559,6 +558,7 @@
             </div>
         </div>
     </section>
+
 @endsection
 
 @section('scripts')

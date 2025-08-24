@@ -13,10 +13,10 @@
     <section class="py-5 bg-light">
         <div class="container py-5">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-md-12 order-2 order-lg-1 mb-5">
                     <div class="row g-4">
                         <div class="col-lg-6 col-md-6">
-                            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4 bg-dark">
                                 <div class="card-body">
                                     <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                         <i class="bi bi-lightning text-color-z fs-2"></i>
@@ -27,7 +27,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4 bg-dark">
                                 <div class="card-body">
                                     <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                         <i class="bi bi-percent text-color-z fs-2"></i>
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4 bg-dark">
                                 <div class="card-body">
                                     <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                         <i class="bi bi-chat-dots text-color-z fs-2"></i>
@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4 bg-dark">
                                 <div class="card-body">
                                     <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                         <i class="bi bi-headset text-color-z fs-2"></i>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4 bg-dark">
                                 <div class="card-body">
                                     <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                         <i class="bi bi-people text-color-z fs-2"></i>
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6">
-                            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                            <div class="card h-100 border-0 shadow-sm text-center p-4 bg-dark">
                                 <div class="card-body">
                                     <div class="feature-icon bg-primary bg-opacity-10 rounded-3 p-3 d-inline-flex mb-3">
                                         <i class="bi bi-trophy text-color-z fs-2"></i>
@@ -83,8 +83,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="card border-0 shadow-lg">
+                <div class="col-lg-6 col-md-12 order-1 order-lg-2 mb-5">
+                    <div class="card border-0 shadow-lg bg-dark">
                         <div class="card-body p-5">
                             <form id="earlyAccessForm">
                                 <div class="row g-4">

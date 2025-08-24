@@ -10,7 +10,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home.index');
+        $blogs = collect(BlogsController::getBlogs())->take(3);
+        return view('home.index', compact('blogs'));
     }
 
     public function products()
