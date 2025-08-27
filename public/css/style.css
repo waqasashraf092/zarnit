@@ -411,3 +411,17 @@ footer {
 .display-6 {
     font-size: 1.5rem !important;
 }
+
+/* Show dropdown on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* aligns neatly below parent */
+    border-radius: unset;
+    border-top: unset;
+}
+
+/* Prevent flickering */
+.navbar-nav .dropdown-menu {
+    margin-top: 0;
+    transition: opacity 0.2s ease;
+}

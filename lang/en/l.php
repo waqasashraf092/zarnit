@@ -190,7 +190,7 @@ return [
     'newsletter_subscription' => 'Keep me updated on product news and early access opportunities',
     'terms_and_privacy' => 'I agree to the Terms of Service andPrivacy Policy *',
 
-    // Keys from products.blade.php
+    // Keys from index.blade.php
     'products_title' => 'Products',
     'products_subtitle' => 'Cutting-edge tools designed to enhance your productivity and creativity. Experience the future of software with our intelligent, beautiful applications.',
     'product_alt' => 'Product',

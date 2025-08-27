@@ -80,3 +80,8 @@ $(document).ready(function() {
         $(this).addClass('fade-in-up');
     });
 });
+
+
+function toggleNavChild(className){
+    $('.' + className).toggleClass('d-none');
+}

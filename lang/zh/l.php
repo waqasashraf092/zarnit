@@ -189,7 +189,7 @@ return [
     'newsletter_subscription' => '让我随时了解产品新闻和早期访问机会',
     'terms_and_privacy' => '我同意 服务条款 和 隐私政策 *',
 
-    // Keys from products.blade.php
+    // Keys from index.blade.php
     'products_title' => '产品',
     'products_subtitle' => '尖端工具，旨在提升您的生产力和创造力。用我们智能、美观的应用程序体验软件的未来。',
     'product_alt' => '产品',

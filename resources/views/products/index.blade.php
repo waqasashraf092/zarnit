@@ -51,9 +51,10 @@
                                     @endforeach
                                 </ul>
                             </div>
-                            <a href="{{ route('home.early-access') }}" class="btn btn-primary btn-lg">
-                                {{ __('l.notify_me') }}
-                            </a>
+                            <div class="d-flex gap-3">
+                                <a href="{{ route('home.early-access') }}" class="btn btn-primary w-50">{{ __('l.notify_me') }}</a>
+                                <a href="{{ $p['href'] }}" class="btn btn-primary w-50">{{ __('l.read_more') }}</a>
+                            </div>
                         </div>
                     </div>
                 </div>

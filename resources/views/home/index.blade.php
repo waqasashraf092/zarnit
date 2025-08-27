@@ -17,7 +17,7 @@
                             {{ __('l.hero_description') }}
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="{{ route('home.products') }}" class="btn btn-primary btn-lg align-content-center py-2">
+                            <a href="{{ route('products.index') }}" class="btn btn-primary btn-lg align-content-center py-2">
                                 {{ __('l.explore_products') }}
                                 <i class="bi bi-arrow-right ms-2"></i>
                             </a>
@@ -163,7 +163,10 @@
                                 <span class="badge bg-secondary me-2">{{ __('l.ai_assistant') }}</span>
                                 <span class="badge bg-secondary">{{ __('l.automation') }}</span>
                             </div>
-                            <a href="{{ route('home.early-access') }}" class="btn btn-primary w-100">{{ __('l.notify_me') }}</a>
+                            <div class="d-flex gap-3">
+                                <a href="{{ route('home.early-access') }}" class="btn btn-primary w-50">{{ __('l.notify_me') }}</a>
+                                <a href="{{ route('products.zarn') }}" class="btn btn-primary w-50">{{ __('l.read_more') }}</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -183,7 +186,10 @@
                                 <span class="badge bg-secondary me-2">{{ __('l.ai_enhancement') }}</span>
                                 <span class="badge bg-secondary">{{ __('l.creative_tools') }}</span>
                             </div>
-                            <a href="{{ route('home.early-access') }}" class="btn btn-primary w-100">{{ __('l.notify_me') }}</a>
+                            <div class="d-flex gap-3">
+                                <a href="{{ route('home.early-access') }}" class="btn btn-primary w-50">{{ __('l.notify_me') }}</a>
+                                <a href="{{ route('products.reolyy') }}" class="btn btn-primary w-50">{{ __('l.read_more') }}</a>
+                            </div>
                         </div>
                     </div>
                 </div>

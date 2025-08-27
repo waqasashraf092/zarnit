@@ -189,7 +189,7 @@ return [
     'newsletter_subscription' => 'Manténme actualizado sobre noticias de productos y oportunidades de acceso anticipado',
     'terms_and_privacy' => 'Acepto los Términos de Servicio y la Política de Privacidad *',
 
-    // Keys from products.blade.php
+    // Keys from index.blade.php
     'products_title' => 'Productos',
     'products_subtitle' => 'Herramientas de vanguardia diseñadas para mejorar tu productividad y creatividad. Experimenta el futuro del software con nuestras aplicaciones inteligentes y atractivas.',
     'product_alt' => 'Producto',

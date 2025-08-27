@@ -13,8 +13,8 @@
                     {{ __('l.Products') }}
                 </h6>
                 <ul class="list-unstyled">
-                    <li class="mb-2"><a href="{{ route('home.products') }}" class="text-muted text-decoration-none">Zarn</a></li>
-                    <li class="mb-2"><a href="{{ route('home.products') }}" class="text-muted text-decoration-none">Reolyy</a></li>
+                    <li class="mb-2"><a href="{{ route('products.zarn') }}" class="text-muted text-decoration-none">Zarn</a></li>
+                    <li class="mb-2"><a href="{{ route('products.reolyy') }}" class="text-muted text-decoration-none">Reolyy</a></li>
                     <li class="mb-2"><a href="{{ route('home.early-access') }}" class="text-muted text-decoration-none">{{ __('l.early_access_title') }}</a></li>
                 </ul>
             </div>

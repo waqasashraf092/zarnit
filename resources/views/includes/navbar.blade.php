@@ -1,49 +1,76 @@
 @php
+    $current = Route::currentRouteName();
     $menu = [
         [
             'name' => __('l.Home'),
             'href' => route('home.index'),
-            'active' => Route::currentRouteName() === 'home.index' ? 'active' : '',
+            'active' => $current === 'home.index' ? 'active' : '',
         ],
         [
             'name' => __('l.Products'),
-            'href' => route('home.products'),
-            'active' => Route::currentRouteName() === 'home.products' ? 'active' : '',
+            'href' => route('products.index'),
+            'active' => in_array($current, ['products.index', 'products.zarn', 'products.reolyy']) ? 'active' : '',
+            'children' => [
+                [
+                    'name' => 'Zarn',
+                    'href' => route('products.zarn'),
+                    'active' => $current === 'products.zarn' ? 'active' : '',
+                ],
+                [
+                    'name' => 'Rolly',
+                    'href' => route('products.reolyy'),
+                    'active' => $current === 'products.reolyy' ? 'active' : '',
+                ],
+            ]
         ],
         [
             'name' => __('l.About'),
             'href' => route('home.about'),
-            'active' => Route::currentRouteName() === 'home.about' ? 'active' : '',
+            'active' => $current === 'home.about' ? 'active' : '',
         ],
         [
             'name' => __('l.Blog'),
             'href' => route('blogs.index'),
-            'active' => Route::currentRouteName() === 'blogs.index' ? 'active' : '',
+            'active' => $current === 'blogs.index' ? 'active' : '',
         ],
         [
             'name' => __('l.Contact'),
             'href' => route('home.contact'),
-            'active' => Route::currentRouteName() === 'home.contact' ? 'active' : '',
+            'active' => $current === 'home.contact' ? 'active' : '',
         ],
     ];
 
 @endphp
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top backdrop-blur">
-    <div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top backdrop-blur py-0">
+    <div class="container h-100">
         <a class="navbar-brand fw-bold text-primary fs-3" href="{{ route('home.index') }}">
             <img src="{{ asset('images/zarnite-logo.png') }}" style="height: 30px" />
         </a>
 
-        <ul class="d-none d-lg-flex navbar-nav mx-auto">
+        <ul class="d-none d-lg-flex align-items-center navbar-nav mx-auto h-100">
             @foreach($menu as $item)
-                <li class="nav-item">
-                    <a class="nav-link {{ $item['active'] }}" href="{{ $item['href'] }}">
+                <li class="nav-item dropdown h-100">
+                    <a class="nav-link h-100 d-flex align-items-center {{ isset($item['children']) ? 'dropdown-toggle' : '' }} {{ $item['active'] }}" href="{{ $item['href'] }}"
+                       @if(isset($item['children'])) role="button" data-bs-toggle="dropdown" aria-expanded="false" @endif>
                         {{ $item['name'] }}
                     </a>
+
+                    @if(isset($item['children']))
+                        <ul class="dropdown-menu backdrop-blur">
+                            @foreach($item['children'] as $child)
+                                <li class=" backdrop-blur">
+                                    <a class="dropdown-item {{ $child['active'] }}" href="{{ $child['href'] }}">
+                                        {{ $child['name'] }}
+                                    </a>
+                                </li>
+                            @endforeach
+                        </ul>
+                    @endif
                 </li>
             @endforeach
         </ul>
+
 
         <div class="d-flex align-items-center gap-lg-3 gap-1">
             <div class="btn-group" style="min-width: 52px">
@@ -100,9 +127,24 @@
     <div class="offcanvas-body">
         <div class="list-group mb-4">
             @foreach($menu as $item)
-                <a href="{{ $item['href'] }}" class="list-group-item list-group-item-action {{ $item['active'] }}" aria-current="true">
-                    {{ $item['name'] }}
+                <a href="{{ isset($item['children']) ? 'javascript:void' : $item['href'] }}" {{ isset($item['children']) ? "onclick=toggleNavChild('tnc_{$loop->iteration}')" : '' }} class="list-group-item list-group-item-action" aria-current="true">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>{{ $item['name'] }}</div>
+                        @if(isset($item['children']))
+                            <i class="bi bi-caret-down"></i>
+                        @endif
+                    </div>
                 </a>
+                @if(isset($item['children']))
+                    @foreach($item['children'] as $child)
+                        <a href="{{ $child['href'] }}" class="tnc_{{$loop->parent->iteration}} {{ $item['active'] ? '' : 'd-none' }} list-group-item list-group-item-action {{ $child['active'] }}" aria-current="true">
+                            <div class="d-flex gap-2 align-items-center">
+                                <i class="bi bi-caret-right"></i>
+                                <div>{{ $child['name'] }}</div>
+                            </div>
+                        </a>
+                    @endforeach
+                @endif
             @endforeach
         </div>
         <a href="{{ route('home.early-access') }}" class="btn btn-primary btn-lg w-100">
